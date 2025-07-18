@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <title>R4 / R5 - Infos Joueurs</title>
-  <link rel="icon" href="https://via.placeholder.com/32/1a1f28/ffffff?text=W" type="image/png">
+  <link rel="icon" href="https://placehold.co/32x32?text=W&font=roboto" type="image/png">
   <style>
     body { background:#1a1f28; color:#e0e4ea; font-family: sans-serif; padding: 20px; }
     h1 { text-align: center; }
@@ -55,7 +55,7 @@
   const url = 'https://wos-giftcode-api.centurygame.com/api/player';
 
   const r5Ids = ['285237340'];
-  const r4Ids = ['288972945', '291951599', '327215543', '292985295', '302889211'];
+  const r4Ids = ['288972945', '291951599', '327215543', '292985295', '302889211']; // <- ID corrigé ici
 
   async function fetchPlayer(id) {
     const time = Date.now();
@@ -88,7 +88,7 @@
 
     if (!player || !player.data || !player.data.nickname) {
       div.innerHTML = `
-        <img src="https://via.placeholder.com/100?text=No+Data" alt="Pas d'infos" class="avatar" />
+        <img src="https://placehold.co/100x100?text=No+Data&font=roboto" alt="Pas d'infos" class="avatar" />
         <div class="pseudo">Joueur inconnu</div>
       `;
       return div;
@@ -96,7 +96,7 @@
 
     const avatarUrl = player.data.avatar && player.data.avatar.startsWith('http')
       ? player.data.avatar
-      : 'https://via.placeholder.com/100?text=No+Avatar';
+      : 'https://placehold.co/100x100?text=No+Avatar&font=roboto';
 
     div.innerHTML = `
       <img src="${avatarUrl}" alt="Avatar ${player.data.nickname}" class="avatar" />
