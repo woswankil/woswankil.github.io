@@ -5,7 +5,6 @@
   <title>R4 / R5 / Membres - Infos Joueurs</title>
   <link rel="icon" href="favicon.ico" type="image/x-icon" />
   <style>
-    /* Reset */
     * {
       box-sizing: border-box;
       margin: 0;
@@ -80,7 +79,6 @@
       overflow: hidden;
       text-overflow: ellipsis;
     }
-    /* Responsive */
     @media (max-width: 600px) {
       .player {
         width: 45%;
@@ -113,14 +111,14 @@
   </div>
 
   <script>
-    // IDs fournis pour R5 et R4 (remplace par les tiens si besoin)
+    // Listes d'IDs pour R5 et R4
     const r5Ids = new Set(['285237340']);
     const r4Ids = new Set(['288972945', '291951599', '327215543', '292985295', '302889211']);
 
-    // URL publique CSV de ta Google Sheet "membres" - remplace TON_ID et GID par les tiens !
+    // URL publique CSV de la Google Sheet (à remplacer par ta propre URL)
     const sheetCSVUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRKpE1Pur7Wd-PbfQMBwqYAlvEz3-Ofr82W1mCYulzq3mSQFEddikwmfguHQlfnIpVLZmu_su9krRbV/pub?gid=0&single=true&output=csv';
 
-    // Fonction simple pour parser CSV en array d'objets
+    // Parser CSV simple en tableau d'objets
     function csvToArray(str, delimiter = ',') {
       const lines = str.trim().split('\n');
       const headers = lines.shift().split(delimiter);
@@ -138,13 +136,12 @@
       const div = document.createElement('div');
       div.className = 'player';
 
-      const isValidAvatar = avatar && avatar.startsWith('http');
-      const avatarStyle = isValidAvatar
-        ? `background-image: url('${avatar}');`
-        : `background-image: url('https://placehold.co/100x100?text=No+Avatar&font=roboto');`;
+      const avatarValid = avatar && avatar.startsWith('http')
+        ? avatar
+        : 'https://placehold.co/100x100?text=No+Avatar&font=roboto';
 
       div.innerHTML = `
-        <div class="avatar" style="${avatarStyle}"></div>
+        <div class="avatar" style="background-image: url('${avatarValid}');"></div>
         <div class="pseudo" title="${pseudo}">${pseudo}</div>
       `;
       return div;
@@ -156,18 +153,17 @@
         const csvText = await response.text();
         const data = csvToArray(csvText);
 
-        // Trie les joueurs selon R5, R4, Membres
         const r5Players = [];
         const r4Players = [];
         const members = [];
 
         data.forEach(row => {
-          // On attend que ta feuille ait au moins les colonnes : A=ID, B=pseudo, C=avatar_image
-          const id = row['ID'] || row['id'] || row['Fid'] || row['fid'] || row['PlayerID'] || row['playerid'] || '';
+          // Ajuste les noms des colonnes en fonction de ta feuille
+          const id = row['ID'] || row['id'] || row['Fid'] || row['fid'] || '';
           const pseudo = row['Pseudo'] || row['pseudo'] || row['Nickname'] || row['nickname'] || '';
-          const avatar = row['Avatar'] || row['avatar'] || row['avatar_image'] || row['Avatar_image'] || '';
+          const avatar = row['avatar_image'] || row['Avatar_image'] || row['Avatar'] || row['avatar'] || '';
 
-          if (!id || !pseudo) return; // ignore ligne invalide
+          if (!id || !pseudo) return; // Ignore lignes invalides
 
           if (r5Ids.has(id)) {
             r5Players.push({ pseudo, avatar });
@@ -178,7 +174,7 @@
           }
         });
 
-        // Affiche dans le DOM
+        // Affiche les joueurs dans chaque section
         const r5Container = document.getElementById('r5-players');
         const r4Container = document.getElementById('r4-players');
         const membersContainer = document.getElementById('members-players');
