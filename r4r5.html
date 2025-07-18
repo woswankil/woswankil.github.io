@@ -77,7 +77,7 @@
       }
       const player = await response.json();
       console.log(`Joueur: ${player?.data?.nickname}`);
-      console.log(`Avatar: ${player?.data?.avatar}`);
+      console.log(`Avatar image: ${player?.data?.avatar_image}`);
       return player;
     } catch (error) {
       console.error(`Erreur fetch pour l'ID ${id}:`, error);
@@ -90,7 +90,7 @@
     div.className = 'player';
 
     const name = player?.data?.nickname ?? 'Joueur inconnu';
-    const avatar = player?.data?.avatar;
+    const avatar = player?.data?.avatar_image;
     const isValidAvatar = typeof avatar === 'string' && avatar.startsWith('http');
 
     const avatarStyle = isValidAvatar
