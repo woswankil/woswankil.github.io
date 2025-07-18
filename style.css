@@ -431,3 +431,23 @@ footer {
     font-size: 1rem !important;
   }
 }
+
+.discord-image-button {
+  text-align: center;
+  margin: 40px 0 20px;
+}
+
+.discord-image-button img {
+  width: 220px; /* ajuste selon ton image */
+  max-width: 80%;
+  height: auto;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 0 12px #5865f2aa;
+  border-radius: 12px;
+}
+
+.discord-image-button img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #5865f2dd;
+}
+
