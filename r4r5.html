@@ -23,8 +23,11 @@
       height: 100px;
       border-radius: 50%;
       margin-bottom: 10px;
-      object-fit: cover;
       border: 2px solid #ff9f43;
+      background-size: cover;
+      background-position: center;
+      background-color: #333;
+      display: inline-block;
     }
     .pseudo {
       font-weight: bold;
@@ -86,22 +89,17 @@
     const div = document.createElement('div');
     div.className = 'player';
 
-    if (!player || !player.data || !player.data.nickname) {
-      div.innerHTML = `
-        <img src="https://placehold.co/100x100?text=No+Data&font=roboto" alt="Pas d'infos" class="avatar" />
-        <div class="pseudo">Joueur inconnu</div>
-      `;
-      return div;
-    }
+    const name = player?.data?.nickname ?? 'Joueur inconnu';
+    const avatar = player?.data?.avatar;
+    const isValidAvatar = typeof avatar === 'string' && avatar.startsWith('http');
 
-    let avatarUrl = player.data.avatar;
-    if (!avatarUrl || typeof avatarUrl !== 'string' || !avatarUrl.startsWith('http')) {
-      avatarUrl = 'https://placehold.co/100x100?text=No+Avatar&font=roboto';
-    }
+    const avatarStyle = isValidAvatar
+      ? `background-image: url('${avatar}');`
+      : `background-image: url('https://placehold.co/100x100?text=No+Avatar&font=roboto');`;
 
     div.innerHTML = `
-      <img src="${avatarUrl}" alt="Avatar ${player.data.nickname}" class="avatar" />
-      <div class="pseudo">${player.data.nickname}</div>
+      <div class="avatar" style="${avatarStyle}"></div>
+      <div class="pseudo">${name}</div>
     `;
     return div;
   }
