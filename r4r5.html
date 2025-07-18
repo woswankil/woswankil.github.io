@@ -31,6 +31,9 @@
       color: #ff9f43;
     }
   </style>
+
+  <!-- Intégration de la librairie blueimp-md5 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/blueimp-md5/2.19.0/js/md5.min.js"></script>
 </head>
 <body>
 
@@ -50,35 +53,30 @@
   const secret = 'tB87#kPtkxqOS2';
   const url = 'https://wos-giftcode-api.centurygame.com/api/player';
 
-  // Liste des IDs R5 et R4 (remplace par tes IDs)
   const r5Ids = ['285237340'];
   const r4Ids = ['288972945', '291954599', '327215543', '292985295', '302889211'];
-
-  // Fonction pour calculer MD5 (tu peux utiliser un CDN, ici un exemple basique)
-  async function md5(message) {
-    const msgBuffer = new TextEncoder().encode(message);
-    const hashBuffer = await crypto.subtle.digest('MD5', msgBuffer);
-    const hashArray = Array.from(new Uint8Array(hashBuffer));
-    const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
-    return hashHex;
-  }
 
   async function fetchPlayer(id) {
     const time = Date.now();
     const form = `fid=${id}&time=${time}`;
-    const sign = await md5(form + secret);
+    const sign = md5(form + secret);  // Utilisation de blueimp-md5
     const payload = `sign=${sign}&${form}`;
 
-    const response = await fetch(url, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: payload
-    });
-    if (!response.ok) {
-      console.error(`Erreur pour l'ID ${id}`);
+    try {
+      const response = await fetch(url, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: payload
+      });
+      if (!response.ok) {
+        console.error(`Erreur pour l'ID ${id} - status ${response.status}`);
+        return null;
+      }
+      return await response.json();
+    } catch (error) {
+      console.error(`Erreur fetch pour l'ID ${id}:`, error);
       return null;
     }
-    return await response.json();
   }
 
   function createPlayerCard(player) {
