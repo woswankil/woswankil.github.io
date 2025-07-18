@@ -55,7 +55,7 @@
   const url = 'https://wos-giftcode-api.centurygame.com/api/player';
 
   const r5Ids = ['285237340'];
-  const r4Ids = ['288972945', '291951599', '327215543', '292985295', '302889211']; // <- ID corrigé ici
+  const r4Ids = ['288972945', '291951599', '327215543', '292985295', '302889211'];
 
   async function fetchPlayer(id) {
     const time = Date.now();
@@ -74,7 +74,7 @@
         return null;
       }
       const player = await response.json();
-      console.log('Données joueur:', player);
+      console.log(`ID ${id} avatar:`, player?.data?.avatar);
       return player;
     } catch (error) {
       console.error(`Erreur fetch pour l'ID ${id}:`, error);
@@ -94,7 +94,7 @@
       return div;
     }
 
-    const avatarUrl = player.data.avatar && player.data.avatar.startsWith('http')
+    const avatarUrl = player.data.avatar && player.data.avatar.trim() !== ''
       ? player.data.avatar
       : 'https://placehold.co/100x100?text=No+Avatar&font=roboto';
 
