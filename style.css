@@ -262,3 +262,56 @@ footer {
   margin-left: -1em;
 }
 
+.alliance-intro {
+  background: rgba(31, 39, 59, 0.8);
+  padding: 25px 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px #ff9f4380;
+  text-align: left;
+  margin-top: 30px;
+  line-height: 1.6;
+  color: #f0f2f5;
+}
+
+.alliance-intro .intro-title {
+  font-size: 1.5rem;
+  color: #ff9f43;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.alliance-intro .highlight {
+  font-weight: bold;
+  color: #ffb95a;
+  margin-bottom: 15px;
+}
+
+.alliance-intro ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 15px 0;
+}
+
+.alliance-intro ul li {
+  margin: 5px 0;
+}
+
+.alliance-intro .contact {
+  margin-top: 15px;
+  font-weight: bold;
+  color: #ff9f43;
+}
+
+.alliance-intro .conclusion {
+  margin-top: 10px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #ffb95a;
+}
+
+.alliance-intro .banana {
+  color: #ffe873;
+  text-shadow: 0 0 5px #ff9f43aa;
+}
+
+
