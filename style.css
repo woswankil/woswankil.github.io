@@ -240,3 +240,25 @@ footer {
   transform: scale(1.05);
 }
 
+.content h4 {
+  margin-top: 25px;
+  font-size: 1.3rem;
+  color: #ff9f43;
+  text-shadow: 0 0 6px #ff9f43aa;
+}
+
+.content ul {
+  padding-left: 20px;
+  margin: 10px 0 20px;
+  list-style-type: none;
+}
+
+.content ul li::before {
+  content: '•';
+  color: #ff9f43;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
