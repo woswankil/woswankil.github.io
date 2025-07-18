@@ -1,1 +1,1 @@
-const discordLink = "https://discord.gg/TON-LIEN-DISCORD";
+const discordLink = "https://discord.gg/WdBnprH5";
