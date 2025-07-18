@@ -314,4 +314,134 @@ footer {
   text-shadow: 0 0 5px #ff9f43aa;
 }
 
+.alliance-intro.improved {
+  background: rgba(31, 39, 59, 0.85);
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 0 25px #ff9f43cc;
+  color: #f0f2f5;
+  max-width: 900px;
+  margin: 40px auto 60px;
+  text-align: left;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+}
+
+.alliance-intro.improved .intro-title {
+  font-size: 1.8rem;
+  color: #ff9f43;
+  margin-bottom: 10px;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+  text-shadow: 0 0 6px #ff9f43bb;
+}
+
+.alliance-intro.improved .highlight {
+  font-weight: 700;
+  color: #ffb95a;
+  margin-bottom: 20px;
+  font-size: 1.15rem;
+}
+
+.alliance-intro.improved p {
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+  color: #e0e3e7;
+}
+
+.alliance-intro.improved p strong {
+  color: #ffbf4b;
+}
+
+.alliance-intro.improved .banana {
+  color: #ffdb5a;
+  text-shadow: 0 0 8px #ff9f43bb;
+}
+
+.icon-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 25px 0;
+}
+
+.icon-list li {
+  position: relative;
+  padding-left: 40px;
+  margin-bottom: 14px;
+  font-size: 1.1rem;
+  color: #e0e3e7;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.icon-list li strong {
+  color: #ffb95a;
+  font-weight: 700;
+}
+
+.icon-list li .icon {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.6rem;
+  line-height: 1;
+  user-select: none;
+  filter: drop-shadow(0 0 1px #ff9f43cc);
+}
+
+.contact {
+  font-weight: 800;
+  color: #ff9f43;
+  font-size: 1.2rem;
+  margin-top: 30px;
+  text-align: center;
+  text-shadow: 0 0 10px #ff9f43cc;
+}
+
+.conclusion {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #ffbb50;
+  margin-top: 15px;
+  text-align: center;
+  text-shadow: 0 0 6px #ff9f43bb;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .alliance-intro.improved {
+    padding: 20px 25px;
+    margin: 30px 15px 40px;
+  }
+  .icon-list li {
+    padding-left: 35px;
+    font-size: 1rem;
+  }
+  .icon-list li .icon {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .alliance-intro.improved {
+    padding: 15px 15px;
+    margin: 20px 10px 30px;
+    font-size: 0.9rem;
+  }
+  .icon-list li {
+    padding-left: 30px;
+    font-size: 0.9rem;
+  }
+  .icon-list li .icon {
+    font-size: 1.2rem;
+  }
+  .intro-title {
+    font-size: 1.4rem !important;
+  }
+  .highlight {
+    font-size: 1rem !important;
+  }
+}
+
 
