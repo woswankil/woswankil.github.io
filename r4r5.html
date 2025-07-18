@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <title>R4 / R5 - Infos Joueurs</title>
+  <link rel="icon" href="https://via.placeholder.com/32/1a1f28/ffffff?text=W" type="image/png">
   <style>
     body { background:#1a1f28; color:#e0e4ea; font-family: sans-serif; padding: 20px; }
     h1 { text-align: center; }
@@ -73,7 +74,7 @@
         return null;
       }
       const player = await response.json();
-      console.log('Player data:', player);  // debug
+      console.log('Données joueur:', player);
       return player;
     } catch (error) {
       console.error(`Erreur fetch pour l'ID ${id}:`, error);
@@ -82,10 +83,21 @@
   }
 
   function createPlayerCard(player) {
-    if (!player || !player.data) return document.createElement('div');
-    const avatarUrl = player.data.avatar || 'https://via.placeholder.com/100?text=No+Avatar';
     const div = document.createElement('div');
     div.className = 'player';
+
+    if (!player || !player.data || !player.data.nickname) {
+      div.innerHTML = `
+        <img src="https://via.placeholder.com/100?text=No+Data" alt="Pas d'infos" class="avatar" />
+        <div class="pseudo">Joueur inconnu</div>
+      `;
+      return div;
+    }
+
+    const avatarUrl = player.data.avatar && player.data.avatar.startsWith('http')
+      ? player.data.avatar
+      : 'https://via.placeholder.com/100?text=No+Avatar';
+
     div.innerHTML = `
       <img src="${avatarUrl}" alt="Avatar ${player.data.nickname}" class="avatar" />
       <div class="pseudo">${player.data.nickname}</div>
