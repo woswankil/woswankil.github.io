@@ -117,7 +117,7 @@
 
     const sheetCSVUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRKpE1Pur7Wd-PbfQMBwqYAlvEz3-Ofr82W1mCYulzq3mSQFEddikwmfguHQlfnIpVLZmu_su9krRbV/pub?gid=0&single=true&output=csv';
 
-    function csvToArray(str, delimiter = ';') {  // <=== ici, on passe à ';'
+    function csvToArray(str, delimiter = ',') {
       const lines = str.trim().split('\n');
       const headers = lines.shift().split(delimiter).map(h => h.trim());
       return lines.map(line => {
@@ -151,9 +151,10 @@
         const csvText = await response.text();
         const data = csvToArray(csvText);
 
-        // DEBUG console : afficher la première ligne (entêtes) et la première ligne de données
-        console.log('Headers:', Object.keys(data[0] || {}));
-        console.log('Première ligne:', data[0]);
+        // DEBUG console : afficher chaque ligne complète
+        data.forEach((row, i) => {
+          console.log(`Ligne ${i + 1}:`, row);
+        });
 
         const r5Players = [];
         const r4Players = [];
@@ -162,7 +163,7 @@
         data.forEach(row => {
           const id = row['ID'] || row['id'] || row['Fid'] || row['fid'] || '';
           const pseudo = row['Pseudo'] || row['pseudo'] || row['Nickname'] || row['nickname'] || '';
-          let avatar = row['Avatar URL'] || '';  // clé exacte
+          let avatar = row['Avatar URL'] || '';  // <=== la clé exacte
 
           avatar = avatar.replace(/^"+|"+$/g, '').trim();
 
