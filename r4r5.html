@@ -33,7 +33,6 @@
     }
   </style>
 
-  <!-- Librairie MD5 -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/blueimp-md5/2.19.0/js/md5.min.js"></script>
 </head>
 <body>
@@ -74,7 +73,8 @@
         return null;
       }
       const player = await response.json();
-      console.log(`ID ${id} avatar:`, player?.data?.avatar);
+      console.log(`Joueur: ${player?.data?.nickname}`);
+      console.log(`Avatar: ${player?.data?.avatar}`);
       return player;
     } catch (error) {
       console.error(`Erreur fetch pour l'ID ${id}:`, error);
@@ -94,9 +94,10 @@
       return div;
     }
 
-    const avatarUrl = player.data.avatar && player.data.avatar.trim() !== ''
-      ? player.data.avatar
-      : 'https://placehold.co/100x100?text=No+Avatar&font=roboto';
+    let avatarUrl = player.data.avatar;
+    if (!avatarUrl || typeof avatarUrl !== 'string' || !avatarUrl.startsWith('http')) {
+      avatarUrl = 'https://placehold.co/100x100?text=No+Avatar&font=roboto';
+    }
 
     div.innerHTML = `
       <img src="${avatarUrl}" alt="Avatar ${player.data.nickname}" class="avatar" />
