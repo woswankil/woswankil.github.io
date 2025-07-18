@@ -1,20 +1,21 @@
-/* Reset basique */
+/* Reset & box-sizing */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+/* BODY + BACKGROUND */
 body {
   background: linear-gradient(135deg, #141b26 0%, #1f273b 100%);
-  color: #f0f2f5;
+  color: #e0e4ea;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
-/* Conteneur général pour header/footer et sections */
+/* CONTENEUR */
 .container {
   max-width: 960px;
   margin: 0 auto;
@@ -25,7 +26,7 @@ body {
 header {
   background-color: #1a1f28;
   padding: 20px 0;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.7);
+  box-shadow: 0 2px 12px rgba(255, 159, 67, 0.6);
 }
 
 header .container {
@@ -35,22 +36,22 @@ header .container {
 }
 
 header h1 {
+  font-size: 2.2rem;
   color: #ff9f43;
-  font-size: 2rem;
-  user-select: none;
   text-shadow: 0 0 10px #ff9f43aa;
+  user-select: none;
 }
 
 /* NAVIGATION */
 nav a {
-  color: #f0f2f5;
+  color: #e0e4ea;
   text-decoration: none;
   margin-left: 25px;
   font-weight: 600;
   font-size: 1.1rem;
-  padding: 8px 12px;
+  padding: 8px 14px;
   border-radius: 8px;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
   user-select: none;
 }
 
@@ -62,7 +63,7 @@ nav a:hover,
 nav a.active {
   background-color: #ff9f43;
   color: #1a1f28;
-  box-shadow: 0 0 10px #ff9f43cc;
+  box-shadow: 0 0 15px #ff9f43dd;
 }
 
 /* MAIN */
@@ -72,14 +73,13 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: transparent;
   width: 100%;
 }
 
 /* TITRES SECTIONS */
 h2.section-title,
 main h2 {
-  font-size: 2.5rem;
+  font-size: 2.6rem;
   color: #ff9f43;
   margin-bottom: 25px;
   border-bottom: 3px solid #ff9f43;
@@ -100,7 +100,7 @@ h3, h4 {
   width: 100%;
   max-width: 960px;
   background: #222b3a;
-  border-radius: 15px;
+  border-radius: 18px;
   padding: 30px 35px;
   margin-bottom: 50px;
   box-shadow: 0 0 25px #ff9f4380;
@@ -108,7 +108,7 @@ h3, h4 {
 
 /* PARAGRAPHES */
 p {
-  font-size: 1.1rem;
+  font-size: 1.15rem;
   line-height: 1.5;
   margin-bottom: 25px;
   color: #d0d4db;
@@ -123,16 +123,16 @@ p {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 25px;
+  gap: 30px;
 }
 
 /* CARTE JOUEUR */
 .player {
   background: #192135;
-  border-radius: 14px;
-  padding: 20px;
+  border-radius: 16px;
+  padding: 22px;
   width: 180px;
-  box-shadow: 0 0 12px #ff9f43cc;
+  box-shadow: 0 0 15px #ff9f43cc;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   text-align: center;
   cursor: default;
@@ -140,8 +140,8 @@ p {
 }
 
 .player:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 25px #ff9f43ff;
+  transform: scale(1.1);
+  box-shadow: 0 0 30px #ff9f43ff;
 }
 
 /* AVATAR */
@@ -149,19 +149,20 @@ p {
   width: 110px;
   height: 110px;
   border-radius: 50%;
-  margin: 0 auto 18px;
-  border: 4px solid #ff9f43;
+  margin: 0 auto 20px auto;
+  border: 5px solid #ff9f43;
   background-size: cover;
   background-position: center;
   background-color: #222b3a;
+  box-shadow: inset 0 0 15px #ff9f43bb;
 }
 
 /* PSEUDO */
 .pseudo {
   font-weight: 700;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   color: #ffb95a;
-  text-shadow: 0 0 6px #ff9f43cc;
+  text-shadow: 0 0 8px #ff9f43cc;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -171,30 +172,33 @@ p {
 .btn {
   background-color: #ff9f43;
   color: #1a1f28;
-  padding: 14px 26px;
-  border-radius: 12px;
-  font-size: 1.1rem;
-  font-weight: 600;
+  padding: 14px 28px;
+  border-radius: 14px;
+  font-size: 1.15rem;
+  font-weight: 700;
   text-decoration: none;
   transition: 0.3s ease;
-  box-shadow: 0 0 10px #ff9f43aa;
+  box-shadow: 0 0 12px #ff9f43bb;
   user-select: none;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
 }
 
 .btn:hover {
   background-color: #ffa74f;
-  transform: scale(1.05);
-  box-shadow: 0 0 15px #ff9f43ee;
+  transform: scale(1.07);
+  box-shadow: 0 0 18px #ff9f43ee;
 }
 
 /* FOOTER */
 footer {
   background-color: #1a1f28;
-  padding: 15px 0;
-  box-shadow: 0 -2px 8px rgba(0,0,0,0.7);
+  padding: 18px 0;
+  box-shadow: 0 -2px 12px rgba(255, 159, 67, 0.5);
   text-align: center;
   color: #888e99;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   user-select: none;
 }
 
@@ -203,31 +207,29 @@ footer {
   .player {
     width: 45%;
   }
+  nav a {
+    margin-left: 18px;
+  }
 }
 
 @media (max-width: 480px) {
   .player {
     width: 100%;
   }
-
   nav a {
-    margin-left: 15px;
+    margin-left: 12px;
     font-size: 1rem;
     padding: 6px 10px;
   }
-
   .btn {
     width: 100%;
-    text-align: center;
   }
-
   .button-container {
     flex-direction: column;
     gap: 15px;
     width: 100%;
     padding: 0 20px;
   }
-
   .container {
     padding: 0 15px;
   }
