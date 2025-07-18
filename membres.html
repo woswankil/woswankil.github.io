@@ -171,30 +171,7 @@
 
           if (!id || !pseudo) return;
 
-          const avatarValid = avatar.startsWith('http') ? avatar : '';
-
-          if (r5Ids.has(id)) {
-            r5Players.push({ pseudo, avatar: avatarValid });
-          } else if (r4Ids.has(id)) {
-            r4Players.push({ pseudo, avatar: avatarValid });
-          } else {
-            members.push({ pseudo, avatar: avatarValid });
-          }
-        });
-
-        const r5Container = document.getElementById('r5-players');
-        const r4Container = document.getElementById('r4-players');
-        const membersContainer = document.getElementById('members-players');
-
-        r5Players.forEach(p => r5Container.appendChild(createPlayerCard(p.pseudo, p.avatar)));
-        r4Players.forEach(p => r4Container.appendChild(createPlayerCard(p.pseudo, p.avatar)));
-        members.forEach(p => membersContainer.appendChild(createPlayerCard(p.pseudo, p.avatar)));
-
-      } catch (err) {
-        console.error('Erreur chargement membres:', err);
-      }
-    }
-
+          const avatarValid = avatar.startsWith('http') ? avatar : '
     loadMembers();
   </script>
 
