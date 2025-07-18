@@ -54,12 +54,12 @@
   const url = 'https://wos-giftcode-api.centurygame.com/api/player';
 
   const r5Ids = ['285237340'];
-  const r4Ids = ['288972945', '291954599', '327215543', '292985295', '302889211'];
+  const r4Ids = ['288972945', '291951599', '327215543', '292985295', '302889211'];
 
   async function fetchPlayer(id) {
     const time = Date.now();
     const form = `fid=${id}&time=${time}`;
-    const sign = md5(form + secret); // Fonction md5 de la lib blueimp-md5
+    const sign = md5(form + secret);
     const payload = `sign=${sign}&${form}`;
 
     try {
@@ -72,7 +72,9 @@
         console.error(`Erreur pour l'ID ${id} - status ${response.status}`);
         return null;
       }
-      return await response.json();
+      const player = await response.json();
+      console.log('Player data:', player);  // debug
+      return player;
     } catch (error) {
       console.error(`Erreur fetch pour l'ID ${id}:`, error);
       return null;
@@ -81,10 +83,11 @@
 
   function createPlayerCard(player) {
     if (!player || !player.data) return document.createElement('div');
+    const avatarUrl = player.data.avatar || 'https://via.placeholder.com/100?text=No+Avatar';
     const div = document.createElement('div');
     div.className = 'player';
     div.innerHTML = `
-      <img src="${player.data.avatar}" alt="Avatar ${player.data.nickname}" class="avatar" />
+      <img src="${avatarUrl}" alt="Avatar ${player.data.nickname}" class="avatar" />
       <div class="pseudo">${player.data.nickname}</div>
     `;
     return div;
