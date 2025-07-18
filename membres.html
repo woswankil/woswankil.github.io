@@ -42,10 +42,16 @@
     </div>
   </main>
   <div class="discord-image-button">
-    <a href="https://discord.gg/TON-LIEN-DISCORD" target="_blank">
+    <a id="discord-link" target="_blank">
       <img src="data/discord.png" alt="Rejoindre notre Discord" />
     </a>
   </div>
+  
+  <script src="config.js"></script>
+  <script>
+    document.getElementById('discord-link').href = discordLink;
+  </script>
+
 
   <footer>
     <div class="container">
