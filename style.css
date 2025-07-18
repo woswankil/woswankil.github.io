@@ -420,7 +420,7 @@ footer {
 }
 
 .discord-image-button img {
-  width: 220px;
+  width: 350px;
   max-width: 80%;
   height: auto;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
