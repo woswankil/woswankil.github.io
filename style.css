@@ -241,10 +241,12 @@ footer {
 }
 
 .content h4 {
-  margin-top: 25px;
+  margin-top: 50px;
+  margin-block-end: 10px;
   font-size: 1.3rem;
   color: #ff9f43;
-  text-shadow: 0 0 6px #ff9f43aa;
+  text-shadow: 0 0 6px #ff9f43aa30;
+  text-align: center;
 }
 
 .content ul {
@@ -330,7 +332,6 @@ footer {
 .alliance-intro.improved .intro-title {
   font-size: 1.8rem;
   color: #ff9f43;
-  margin-bottom: 10px;
   font-weight: 900;
   letter-spacing: 0.04em;
   text-shadow: 0 0 6px #ff9f43bb;
@@ -339,7 +340,8 @@ footer {
 .alliance-intro.improved .highlight {
   font-weight: 700;
   color: #ffb95a;
-  margin-bottom: 20px;
+  margin-block: 10px;
+  margin-bottom: 10px;
   font-size: 1.15rem;
 }
 
