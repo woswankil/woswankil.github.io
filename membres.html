@@ -111,14 +111,11 @@
   </div>
 
   <script>
-    // Listes d'IDs pour R5 et R4
     const r5Ids = new Set(['285237340']);
     const r4Ids = new Set(['288972945', '291951599', '327215543', '292985295', '302889211']);
 
-    // URL publique CSV de la Google Sheet (à remplacer par ta propre URL)
     const sheetCSVUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRKpE1Pur7Wd-PbfQMBwqYAlvEz3-Ofr82W1mCYulzq3mSQFEddikwmfguHQlfnIpVLZmu_su9krRbV/pub?gid=0&single=true&output=csv';
 
-    // Parser CSV simple en tableau d'objets
     function csvToArray(str, delimiter = ',') {
       const lines = str.trim().split('\n');
       const headers = lines.shift().split(delimiter);
@@ -132,16 +129,16 @@
       });
     }
 
-    function createPlayerCard(pseudo, avatar) {
+    function createPlayerCard(pseudo, avatarUrl) {
       const div = document.createElement('div');
       div.className = 'player';
 
-      const avatarValid = avatar && avatar.startsWith('http')
-        ? avatar
+      const avatar = avatarUrl && avatarUrl.startsWith('http')
+        ? avatarUrl
         : 'https://placehold.co/100x100?text=No+Avatar&font=roboto';
 
       div.innerHTML = `
-        <div class="avatar" style="background-image: url('${avatarValid}');"></div>
+        <div class="avatar" style="background-image: url('${avatar}');"></div>
         <div class="pseudo" title="${pseudo}">${pseudo}</div>
       `;
       return div;
@@ -158,23 +155,25 @@
         const members = [];
 
         data.forEach(row => {
-          // Ajuste les noms des colonnes en fonction de ta feuille
+          console.log("DEBUG CSV:", row);  // <- Affiche les noms de colonnes et leur contenu
+
           const id = row['ID'] || row['id'] || row['Fid'] || row['fid'] || '';
           const pseudo = row['Pseudo'] || row['pseudo'] || row['Nickname'] || row['nickname'] || '';
-          const avatar = row['avatar_image'] || row['Avatar_image'] || row['Avatar'] || row['avatar'] || '';
+          const avatar = row['avatar_image'] || row['Avatar_image'] || row['Avatar'] || row['avatar'] || row['Image'] || '';
 
-          if (!id || !pseudo) return; // Ignore lignes invalides
+          const avatarValid = avatar && avatar.startsWith('http') ? avatar : '';
+
+          if (!id || !pseudo) return;
 
           if (r5Ids.has(id)) {
-            r5Players.push({ pseudo, avatar });
+            r5Players.push({ pseudo, avatar: avatarValid });
           } else if (r4Ids.has(id)) {
-            r4Players.push({ pseudo, avatar });
+            r4Players.push({ pseudo, avatar: avatarValid });
           } else {
-            members.push({ pseudo, avatar });
+            members.push({ pseudo, avatar: avatarValid });
           }
         });
 
-        // Affiche les joueurs dans chaque section
         const r5Container = document.getElementById('r5-players');
         const r4Container = document.getElementById('r4-players');
         const membersContainer = document.getElementById('members-players');
