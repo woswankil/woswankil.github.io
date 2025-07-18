@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Page Vierge - Alliance WOS</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Alliance Wankil Whiteout Survival 1911</h1>
+      <nav>
+        <a href="index.html">Accueil</a>
+        <a href="membres.html">Membres</a>
+        <a href="sheet.html">Tableau d'event</a>
+        <a href="tutoriel.html">Tutoriel</a>
+        <a href="reglement.html">Règlement</a>
+        <a href="vide.html" class="active">Page Vierge</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Nouvelle Page</h2>
+      <p>Cette page est encore vide. Tu peux y ajouter du contenu personnalisé !</p>
+    </section>
+
+    <section class="content">
+      <!-- Ton contenu personnalisé ici -->
+    </section>
+
+    <div class="discord-image-button">
+      <a id="discord-link" target="_blank">
+        <img src="data/discord.png" alt="Rejoindre notre Discord" />
+      </a>
+    </div>
+    <script src="data/config.js"></script>
+    <script>
+      document.getElementById('discord-link').href = discordLink;
+    </script>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Alliance WOS - Tous droits réservés.</p>
+    </div>
+  </footer>
+</body>
+</html>
