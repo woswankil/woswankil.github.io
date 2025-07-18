@@ -155,15 +155,19 @@
         const members = [];
 
         data.forEach(row => {
-          console.log("DEBUG CSV:", row);  // <- Affiche les noms de colonnes et leur contenu
-
           const id = row['ID'] || row['id'] || row['Fid'] || row['fid'] || '';
           const pseudo = row['Pseudo'] || row['pseudo'] || row['Nickname'] || row['nickname'] || '';
-          const avatar = row['avatar_image'] || row['Avatar_image'] || row['Avatar'] || row['avatar'] || row['Image'] || '';
+          let avatar = row['avatar_image'] || row['Avatar Image'] || row['Image'] || row['Avatar'] || row['avatar'] || '';
 
-          const avatarValid = avatar && avatar.startsWith('http') ? avatar : '';
+          // Nettoyage des guillemets et espaces
+          avatar = avatar.replace(/^"+|"+$/g, '').trim();
+
+          console.log('DEBUG pseudo:', pseudo);
+          console.log('DEBUG avatar:', avatar);
 
           if (!id || !pseudo) return;
+
+          const avatarValid = avatar.startsWith('http') ? avatar : '';
 
           if (r5Ids.has(id)) {
             r5Players.push({ pseudo, avatar: avatarValid });
