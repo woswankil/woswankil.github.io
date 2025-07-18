@@ -344,13 +344,17 @@ footer {
 }
 
 .alliance-intro.improved p {
-  font-size: 1.1rem;
-  margin-bottom: 12px;
+  font-size: 1.15rem;
+  line-height: 1.6;
   color: #e0e3e7;
+  text-align: center; /* centré pour plus de lisibilité */
+  margin-bottom: 18px;
 }
 
-.alliance-intro.improved p strong {
-  color: #ffbf4b;
+.alliance-intro.improved p br {
+  content: "";
+  margin-bottom: 8px;
+  display: block;
 }
 
 .alliance-intro.improved .banana {
@@ -390,24 +394,6 @@ footer {
   filter: drop-shadow(0 0 1px #ff9f43cc);
 }
 
-.contact {
-  font-weight: 800;
-  color: #ff9f43;
-  font-size: 1.2rem;
-  margin-top: 30px;
-  text-align: center;
-  text-shadow: 0 0 10px #ff9f43cc;
-}
-
-.conclusion {
-  font-size: 1.25rem;
-  font-weight: 700;
-  color: #ffbb50;
-  margin-top: 15px;
-  text-align: center;
-  text-shadow: 0 0 6px #ff9f43bb;
-}
-
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .alliance-intro.improved {
@@ -443,5 +429,3 @@ footer {
     font-size: 1rem !important;
   }
 }
-
-
