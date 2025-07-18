@@ -2,56 +2,45 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8" />
-  <title>R4 / R5 / Membres - Infos Joueurs</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>R4 / R5 / Membres - Alliance WOS</title>
   <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="style.css" />
   <style>
-    /* Inspiré du style de la page index de base */
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-    body {
-      background: linear-gradient(135deg, #141b26 0%, #1f273b 100%);
-      color: #f0f2f5;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    main {
       padding: 40px 20px;
-      min-height: 100vh;
       display: flex;
       flex-direction: column;
       align-items: center;
+      min-height: 100vh;
     }
-    h1 {
-      font-size: 3rem;
+
+    h2.section-title {
+      font-size: 2.4rem;
       color: #ff9f43;
-      text-shadow: 0 0 12px #ff9f43aa;
-      margin-bottom: 40px;
-      user-select: none;
+      margin: 40px 0 20px;
+      border-bottom: 3px solid #ff9f43;
+      padding-bottom: 8px;
+      text-align: center;
     }
+
     .section {
       width: 100%;
-      max-width: 960px;
+      max-width: 1000px;
       margin-bottom: 60px;
       background: #222b3a;
       border-radius: 15px;
       padding: 25px 30px;
       box-shadow: 0 0 20px #ff9f4380;
     }
-    .section h2 {
-      font-size: 2.2rem;
-      margin-bottom: 25px;
-      border-bottom: 3px solid #ff9f43;
-      display: inline-block;
-      padding-bottom: 6px;
-      letter-spacing: 1.3px;
-      user-select: none;
-    }
+
     .players-container {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      gap: 30px;
+      gap: 25px;
     }
+
     .player {
       background: #192135;
       border-radius: 14px;
@@ -59,14 +48,14 @@
       width: 180px;
       box-shadow: 0 0 12px #ff9f43cc;
       transition: transform 0.3s ease, box-shadow 0.3s ease;
-      cursor: default;
       text-align: center;
-      user-select: none;
     }
+
     .player:hover {
-      transform: scale(1.1);
+      transform: scale(1.05);
       box-shadow: 0 0 25px #ff9f43ff;
     }
+
     .avatar {
       width: 110px;
       height: 110px;
@@ -76,58 +65,69 @@
       background-size: cover;
       background-position: center;
       background-color: #222b3a;
-      box-shadow: 0 0 10px #ff9f43bb inset;
     }
+
     .pseudo {
       font-weight: 700;
-      font-size: 1.4rem;
+      font-size: 1.3rem;
       color: #ffb95a;
-      text-shadow: 0 0 8px #ff9f43cc;
+      text-shadow: 0 0 6px #ff9f43cc;
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
     }
-    @media (max-width: 720px) {
+
+    @media (max-width: 600px) {
       .player {
         width: 45%;
       }
     }
-    @media (max-width: 420px) {
+
+    @media (max-width: 400px) {
       .player {
         width: 100%;
-      }
-      h1 {
-        font-size: 2.4rem;
-        margin-bottom: 30px;
-      }
-      .section {
-        padding: 20px;
-      }
-      .section h2 {
-        font-size: 1.8rem;
-        margin-bottom: 20px;
       }
     }
   </style>
 </head>
 <body>
+  <header>
+    <div class="container">
+      <h1>Alliance Whiteout Survival</h1>
+      <nav>
+        <a href="index.html">Accueil</a>
+        <a href="r4r5.html" class="active">Membres</a>
+        <a href="sheet.html">Tableau d'event</a>
+        <a href="tutoriel.html">Tutoriel</a>
+        <a href="reglement.html">Règlement</a>
+      </nav>
+    </div>
+  </header>
 
-  <h1>Infos Joueurs R4 & R5 & Membres</h1>
+  <main>
+    <h2 class="section-title">Infos Joueurs R4 / R5 / Membres</h2>
 
-  <div class="section" id="r5-section">
-    <h2>R5</h2>
-    <div id="r5-players" class="players-container"></div>
-  </div>
+    <div class="section" id="r5-section">
+      <h2 class="section-title">R5</h2>
+      <div id="r5-players" class="players-container"></div>
+    </div>
 
-  <div class="section" id="r4-section">
-    <h2>R4</h2>
-    <div id="r4-players" class="players-container"></div>
-  </div>
+    <div class="section" id="r4-section">
+      <h2 class="section-title">R4</h2>
+      <div id="r4-players" class="players-container"></div>
+    </div>
 
-  <div class="section" id="members-section">
-    <h2>Membres</h2>
-    <div id="members-players" class="players-container"></div>
-  </div>
+    <div class="section" id="members-section">
+      <h2 class="section-title">Membres</h2>
+      <div id="members-players" class="players-container"></div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Alliance WOS - Tous droits réservés.</p>
+    </div>
+  </footer>
 
   <script>
     const r5Ids = new Set(['285237340']);
@@ -179,7 +179,6 @@
           let avatar = row['Avatar URL'] || '';
 
           avatar = avatar.replace(/^"+|"+$/g, '').trim();
-
           if (!id || !pseudo) return;
 
           const avatarValid = avatar.startsWith('http') ? avatar : '';
@@ -208,6 +207,5 @@
 
     loadMembers();
   </script>
-
 </body>
 </html>
