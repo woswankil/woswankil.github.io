@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Event Board - WOS Alliance</title>
+  <link rel="stylesheet" href="/style.css"/>
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1>Wankil Alliance - Whiteout Survival 1911</h1>
+      <nav>
+        <a href="index_en.html">Home</a>
+        <a href="membres_en.html">Members</a>
+        <a href="sheet_en.html" class="active">Event Board</a>
+        <a href="tutoriel_en.html">Tutorial</a>
+        <a href="reglement_en.html">Rules</a>
+      </nav>
+    </div>
+    <div class="language-switcher">
+      <a href="/sheet.html">English</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="content center">
+      <section class="hero">
+        <h2>Event Tracker Sheets</h2>
+        <p>Check the alliance's member and event tracking sheets:</p>
+      </section>
+
+      <div class="button-container">
+        <a href="https://docs.google.com/spreadsheets/d/1Wi0X77-u8WaLn3Fch3Oh4kvG_sAuHvqOkQloC8POaNg/edit?gid=0" class="btn" target="_blank">Members</a>
+        <a href="https://docs.google.com/spreadsheets/d/1Wi0X77-u8WaLn3Fch3Oh4kvG_sAuHvqOkQloC8POaNg/edit?gid=1742177555" class="btn" target="_blank">Foundry</a>
+        <a href="https://docs.google.com/spreadsheets/d/1Wi0X77-u8WaLn3Fch3Oh4kvG_sAuHvqOkQloC8POaNg/edit?gid=1057571335" class="btn" target="_blank">Canyon</a>
+      </div>
+    </section>
+  </main>
+
+  <div class="discord-image-button">
+    <a id="discord-link" target="_blank">
+      <img src="/data/discord.png" alt="Join our Discord" />
+    </a>
+  </div>
+
+  <script src="/data/config.js"></script>
+  <script>
+    document.getElementById('discord-link').href = discordLink;
+  </script>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 WOS Alliance - All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>

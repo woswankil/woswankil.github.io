@@ -8,6 +8,7 @@
   <link rel="icon" href="favicon.ico" type="image/x-icon" />
 </head>
 <body>
+
   <header>
     <div class="container">
       <h1>Alliance Wankil Whiteout Survival 1911</h1>
@@ -19,14 +20,18 @@
         <a href="reglement.html">Règlement</a>
       </nav>
     </div>
+    <div class="language-switcher">
+      <a href="lang/en/sheet_en.html">English</a>
+    </div>
   </header>
 
   <main>
     <section class="content center">
-        <section class="hero">
-          <h2>Tableaux des Événements</h2>
-        </section>
-      <p>Consulte les différentes feuilles de suivi des membres et des événements de l’alliance :</p>
+      <section class="hero">
+        <h2>Tableaux des Événements</h2>
+        <p>Consulte les feuilles de suivi des membres et des événements :</p>
+      </section>
+
       <div class="button-container">
         <a href="https://docs.google.com/spreadsheets/d/1Wi0X77-u8WaLn3Fch3Oh4kvG_sAuHvqOkQloC8POaNg/edit?gid=0" class="btn" target="_blank">Membres</a>
         <a href="https://docs.google.com/spreadsheets/d/1Wi0X77-u8WaLn3Fch3Oh4kvG_sAuHvqOkQloC8POaNg/edit?gid=1742177555" class="btn" target="_blank">Fonderie</a>
@@ -34,17 +39,17 @@
       </div>
     </section>
   </main>
+
   <div class="discord-image-button">
     <a id="discord-link" target="_blank">
-      <img src="data/discord.png" alt="Rejoindre notre Discord" />
+      <img src="/data/discord.png" alt="Rejoindre notre Discord" />
     </a>
   </div>
 
-<script src="data/config.js"></script>
-<script>
-  document.getElementById('discord-link').href = discordLink;
-</script>
-
+  <script src="/data/config.js"></script>
+  <script>
+    document.getElementById('discord-link').href = discordLink;
+  </script>
 
   <footer>
     <div class="container">
