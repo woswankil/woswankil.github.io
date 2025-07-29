@@ -32,15 +32,15 @@
     },
     {
       "type": "html",
-      "data": "<li style=\"text-align:justify;\"><b>d</b><b>a</b><b>z</b></li>"
+      "data": "<p style=\"text-align:justify;\"><b>d</b><b>a</b><b>z</b></p>"
     },
     {
       "type": "html",
-      "data": "<li style=\"text-align:left;\"><b>d</b></li>"
+      "data": "<p style=\"text-align:left;\"><b>d</b></p>"
     },
     {
       "type": "html",
-      "data": "<li style=\"text-align:left;\">azd</li>"
+      "data": "<p style=\"text-align:left;\">azd</p>"
     },
     {
       "type": "html",
