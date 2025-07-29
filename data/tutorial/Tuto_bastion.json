@@ -1,14 +1,5 @@
 {
   "id": "tuto1",
   "titre": "Construire un bastion",
-  "contenu": [
-    {
-      "type": "text",
-      "data": "Tuto 1"
-    },
-    {
-      "type": "text",
-      "data": "Blbalbal"
-    }
-  ]
+  "contenu": "<p>Tuto 1</p><p></p><p>Blbalbal</p><p></p><p></p>"
 }
