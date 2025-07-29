@@ -110,6 +110,15 @@ main {
   margin: 0 auto;
 }
 
+.content li {
+  font-size: 1.1rem;
+  color: #dddddd;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+
 /* SECTIONS MEMBRES, R4, R5 */
 .section {
   background: #222b3a;
@@ -508,7 +517,6 @@ footer {
     transform: rotate(360deg);
   }
 }
-
 
 
 

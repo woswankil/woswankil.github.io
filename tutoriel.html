@@ -27,7 +27,7 @@
       background-color: #e07b1a;
     }
     #tuto-content {
-      background: rgba(255 255 255 / 0.05);
+      background: rgba(255, 255, 255, 0.05);
       border-radius: 6px;
       padding: 15px;
       min-height: 150px;
@@ -40,6 +40,13 @@
       margin: 15px 0;
       border-radius: 4px;
       display: block;
+    }
+    #tuto-content h1, #tuto-content h2, #tuto-content h3 {
+      margin: 20px 0 10px;
+      color: #ff9f43;
+    }
+    #tuto-content ul {
+      padding-left: 20px;
     }
   </style>
 </head>
@@ -115,15 +122,14 @@
     function genererHTML(contenu) {
       try {
         return contenu.map(el => {
-          if (el.type === "text") {
-            // Échapper le texte pour éviter d'insérer du HTML brut (sécurité)
+          if (el.type === "html") {
+            return el.data; // Contenu déjà sécurisé côté serveur
+          } else if (el.type === "text") {
             return `<p>${escapeHTML(el.data)}</p>`;
           } else if (el.type === "image") {
-            // Alt plus descriptif possible
             return `<img src="${escapeHTML(el.data)}" alt="Illustration du tutoriel">`;
           } else {
-            // Type inconnu, on ignore ou on peut ajouter un log console
-            console.warn("Type contenu inconnu :", el.type);
+            console.warn("Type inconnu :", el.type);
             return "";
           }
         }).join('\n');
@@ -164,7 +170,6 @@
         });
         containerBtns.appendChild(btn);
 
-        // Afficher le premier tutoriel automatiquement
         if (i === 0) btn.click();
       });
     }
