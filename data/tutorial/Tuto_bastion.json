@@ -88,6 +88,10 @@
     },
     {
       "type": "html",
+      "data": "<p style=\"text-align:center; font-size:20px\"><b>Test pour voir si ca marche mtn </b></p>"
+    },
+    {
+      "type": "html",
       "data": "<p style=\"text-align:left; font-size:11px\"></p>"
     },
     {
