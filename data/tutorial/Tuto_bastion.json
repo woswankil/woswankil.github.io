@@ -40,15 +40,23 @@
     },
     {
       "type": "html",
-      "data": "<p style=\"text-align:left; font-size:22px\">1</p>"
+      "data": "<ul>"
     },
     {
       "type": "html",
-      "data": "<p style=\"text-align:left; font-size:22px\">2</p>"
+      "data": "<li style=\"text-align:left; font-size:22px\">1</li>"
     },
     {
       "type": "html",
-      "data": "<p style=\"text-align:left; font-size:22px\">3</p>"
+      "data": "<li style=\"text-align:left; font-size:22px\">2</li>"
+    },
+    {
+      "type": "html",
+      "data": "<li style=\"text-align:left; font-size:22px\">3</li>"
+    },
+    {
+      "type": "html",
+      "data": "</ul>"
     },
     {
       "type": "html",
