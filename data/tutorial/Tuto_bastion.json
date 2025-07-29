@@ -4,23 +4,23 @@
   "contenu": [
     {
       "type": "html",
-      "data": "<p style=\"text-align:left;\">Tuto 1 </p>"
+      "data": "<p>Tuto 1 </p>"
     },
     {
       "type": "html",
-      "data": "<p style=\"text-align:left;\"></p>"
+      "data": "<p></p>"
     },
     {
       "type": "html",
-      "data": "<p style=\"text-align:left;\">Blbalbal</p>"
+      "data": "<p>Blbalbal</p>"
     },
     {
       "type": "html",
-      "data": "<p style=\"text-align:left;\"></p>"
+      "data": "<p></p>"
     },
     {
       "type": "html",
-      "data": "<p style=\"text-align:left;\"></p>"
+      "data": "<p></p>"
     }
   ]
 }
