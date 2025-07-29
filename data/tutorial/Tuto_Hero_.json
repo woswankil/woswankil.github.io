@@ -4,63 +4,63 @@
   "contenu": [
     {
       "type": "html",
-      "data": "<p>Tuto 2 hero</p>"
+      "data": "<p style=\"text-align:left;\">Tuto 2 hero</p>"
     },
     {
       "type": "html",
-      "data": "<p></p>"
+      "data": "<p style=\"text-align:left;\"></p>"
     },
     {
       "type": "html",
-      "data": "<p><span style=\"font-size:22px\">A</span><span style=\"font-size:22px\">Z</span><span style=\"font-size:22px\">D</span><span style=\"font-size:22px\">A</span><span style=\"font-size:22px\">Z</span><span style=\"font-size:22px\">D</span><span style=\"font-size:22px\">A</span><span style=\"font-size:22px\">F</span><span style=\"font-size:22px\">A</span><span style=\"font-size:22px\">Z</span><span style=\"font-size:22px\">E</span><span style=\"font-size:22px\">F</span><span style=\"font-size:22px\">A</span><span style=\"font-size:22px\">Z</span><span style=\"font-size:22px\">F</span></p>"
+      "data": "<p style=\"text-align:left;\"><span style=\"font-size:22px\">A</span><span style=\"font-size:22px\">Z</span><span style=\"font-size:22px\">D</span><span style=\"font-size:22px\">A</span><span style=\"font-size:22px\">Z</span><span style=\"font-size:22px\">D</span><span style=\"font-size:22px\">A</span><span style=\"font-size:22px\">F</span><span style=\"font-size:22px\">A</span><span style=\"font-size:22px\">Z</span><span style=\"font-size:22px\">E</span><span style=\"font-size:22px\">F</span><span style=\"font-size:22px\">A</span><span style=\"font-size:22px\">Z</span><span style=\"font-size:22px\">F</span></p>"
     },
     {
       "type": "html",
-      "data": "<p></p>"
+      "data": "<p style=\"text-align:left;\"></p>"
     },
     {
       "type": "html",
-      "data": "<p>dazdzada</p>"
+      "data": "<p style=\"text-align:center;\">dazdzada</p>"
     },
     {
       "type": "html",
-      "data": "<p>zd</p>"
+      "data": "<p style=\"text-align:justify;\">zd</p>"
     },
     {
       "type": "html",
-      "data": "<p>az</p>"
+      "data": "<p style=\"text-align:justify;\">az</p>"
     },
     {
       "type": "html",
-      "data": "<p><b>d</b><b>a</b><b>z</b></p>"
+      "data": "<li style=\"text-align:justify;\"><b>d</b><b>a</b><b>z</b></li>"
     },
     {
       "type": "html",
-      "data": "<p><b>d</b></p>"
+      "data": "<li style=\"text-align:left;\"><b>d</b></li>"
     },
     {
       "type": "html",
-      "data": "<p>azd</p>"
+      "data": "<li style=\"text-align:left;\">azd</li>"
     },
     {
       "type": "html",
-      "data": "<p>az</p>"
+      "data": "<p style=\"text-align:right;\">az</p>"
     },
     {
       "type": "html",
-      "data": "<p>daz<img src=\"data/tutorial/images/image0_tuto2.png\" alt=\"Illustration\"></p>"
+      "data": "<p style=\"text-align:right;\">daz<img src=\"data/tutorial/images/image0_tuto2.png\" alt=\"Illustration\"></p>"
     },
     {
       "type": "html",
-      "data": "<p></p>"
+      "data": "<p style=\"text-align:left;\"></p>"
     },
     {
       "type": "html",
-      "data": "<p><span style=\"font-size:33px\"><b>d</b></span><span style=\"font-size:33px\"><b>a</b></span><span style=\"font-size:33px\"><b>z</b></span></p>"
+      "data": "<p style=\"text-align:center;\"><span style=\"font-size:33px\"><b>d</b></span><span style=\"font-size:33px\"><b>a</b></span><span style=\"font-size:33px\"><b>z</b></span></p>"
     },
     {
       "type": "html",
-      "data": "<p></p>"
+      "data": "<p style=\"text-align:left;\"></p>"
     }
   ]
 }
