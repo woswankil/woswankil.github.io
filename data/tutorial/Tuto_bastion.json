@@ -3,12 +3,24 @@
   "titre": "Construire un bastion",
   "contenu": [
     {
-      "type": "text",
-      "data": "Tuto 1"
+      "type": "html",
+      "data": "<p>Tuto 1 </p>"
     },
     {
-      "type": "text",
-      "data": "Blbalbal"
+      "type": "html",
+      "data": "<p></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p>Blbalbal</p>"
+    },
+    {
+      "type": "html",
+      "data": "<p></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p></p>"
     }
   ]
 }
