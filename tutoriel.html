@@ -7,7 +7,6 @@
   <link rel="stylesheet" href="style.css" />
   <link rel="icon" href="favicon.ico" type="image/x-icon" />
   <style>
-    /* Styles spécifiques tutoriel */
     #tuto-buttons {
       display: flex;
       flex-wrap: wrap;
@@ -35,6 +34,12 @@
       color: white;
       font-size: 1rem;
       line-height: 1.5;
+    }
+    #tuto-content img {
+      max-width: 100%;
+      margin: 15px 0;
+      border-radius: 4px;
+      display: block;
     }
   </style>
 </head>
@@ -79,49 +84,62 @@
   </footer>
 
   <script>
-    // Fonction pour charger la liste des fichiers JSON dans data/tutorial
     async function chargerListeTutoriels() {
-      // On récupère la liste des fichiers JSON depuis l'API GitHub (repo public)
-      // Si tu veux éviter l'API GitHub, il faut un fichier index manuel ou une autre méthode
-      const urlIndex = 'data/tutorial/index.json'; // option possible (voir plus bas)
-
       try {
-        // Méthode simple : on a un fichier index.json listant les tutos (recommandé)
-        // Sinon, on peut essayer d’appeler la GitHub API directement, mais CORS bloque souvent.
-        
-        // Pour commencer, on suppose que tu as un fichier index.json que tu mets à jour avec la liste des tutos
-        const res = await fetch(urlIndex);
+        const res = await fetch('data/tutorial/index.json');
         if (!res.ok) throw new Error("Index tutoriels non trouvé");
-        const tutoriels = await res.json();
-
-        return tutoriels; // tableau d'objets { id, titre, fichier }
+        return await res.json();
       } catch (e) {
-        console.error("Erreur chargement index tutoriels :", e);
+        console.error("Erreur chargement index :", e);
         return null;
       }
     }
 
-    // Charger un tutoriel en JSON
     async function chargerTuto(fichier) {
       try {
         const res = await fetch(`data/tutorial/${fichier}`);
         if (!res.ok) throw new Error("Tutoriel introuvable");
-        const tuto = await res.json();
-        return tuto;
+        return await res.json();
       } catch (e) {
         console.error("Erreur chargement tutoriel :", e);
         return null;
       }
     }
 
-    // Générer les boutons et gérer affichage
+    function escapeHTML(text) {
+      const div = document.createElement('div');
+      div.textContent = text;
+      return div.innerHTML;
+    }
+
+    function genererHTML(contenu) {
+      try {
+        return contenu.map(el => {
+          if (el.type === "text") {
+            // Échapper le texte pour éviter d'insérer du HTML brut (sécurité)
+            return `<p>${escapeHTML(el.data)}</p>`;
+          } else if (el.type === "image") {
+            // Alt plus descriptif possible
+            return `<img src="${escapeHTML(el.data)}" alt="Illustration du tutoriel">`;
+          } else {
+            // Type inconnu, on ignore ou on peut ajouter un log console
+            console.warn("Type contenu inconnu :", el.type);
+            return "";
+          }
+        }).join('\n');
+      } catch (e) {
+        console.error("Erreur dans genererHTML :", e);
+        return "<p>Erreur affichage contenu.</p>";
+      }
+    }
+
     async function initTutoriels() {
       const containerBtns = document.getElementById('tuto-buttons');
       const containerContenu = document.getElementById('tuto-content');
 
       const tutoriels = await chargerListeTutoriels();
       if (!tutoriels || tutoriels.length === 0) {
-        containerContenu.innerHTML = "<p>Aucun tutoriel disponible pour l'instant.</p>";
+        containerContenu.innerHTML = "<p>Aucun tutoriel disponible.</p>";
         return;
       }
 
@@ -138,18 +156,16 @@
 
           containerContenu.innerHTML = "<p>Chargement...</p>";
           const tuto = await chargerTuto(fichier);
-          if (tuto) {
-            containerContenu.innerHTML = tuto.contenu;
+          if (tuto && Array.isArray(tuto.contenu)) {
+            containerContenu.innerHTML = genererHTML(tuto.contenu);
           } else {
             containerContenu.innerHTML = "<p>Erreur chargement du tutoriel.</p>";
           }
         });
         containerBtns.appendChild(btn);
 
-        // Afficher le premier tutoriel par défaut
-        if (i === 0) {
-          btn.click();
-        }
+        // Afficher le premier tutoriel automatiquement
+        if (i === 0) btn.click();
       });
     }
 
