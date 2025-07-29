@@ -2,13 +2,43 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tutoriel - Alliance WOS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tutoriels - Alliance WOS</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <style>
+    /* Styles spécifiques tutoriel */
+    #tuto-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+    #tuto-buttons button {
+      background-color: #ff9f43;
+      border: none;
+      padding: 8px 15px;
+      border-radius: 4px;
+      cursor: pointer;
+      color: #fff;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+    #tuto-buttons button:hover, #tuto-buttons button.active {
+      background-color: #e07b1a;
+    }
+    #tuto-content {
+      background: rgba(255 255 255 / 0.05);
+      border-radius: 6px;
+      padding: 15px;
+      min-height: 150px;
+      color: white;
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+  </style>
 </head>
 <body>
-
   <header>
     <div class="container">
       <h1>Alliance Wankil Whiteout Survival 1911</h1>
@@ -21,30 +51,25 @@
       </nav>
     </div>
     <div class="language-switcher">
-      <a href="lang/en/tutoriel_en.html">
+      <a href="lang/en/index_en.html">
         <img src="data/en-flag.png" alt="English" style="width:50px; height:auto;" />
       </a>
+    </div>
   </header>
 
   <main>
     <section class="hero">
-      <h2>Page Tutoriel</h2>
+      <h2>Nos Tutoriels</h2>
     </section>
 
     <section class="content">
-      <!-- Contenu du tutoriel à venir -->
+      <div id="tuto-buttons">
+        <!-- Boutons générés ici -->
+      </div>
+      <div id="tuto-content">
+        <p>Sélectionnez un tutoriel ci-dessus pour commencer.</p>
+      </div>
     </section>
-
-    <div class="discord-image-button">
-      <a id="discord-link" target="_blank">
-        <img src="/data/discord.png" alt="Rejoindre notre Discord" />
-      </a>
-    </div>
-
-    <script src="/data/config.js"></script>
-    <script>
-      document.getElementById('discord-link').href = discordLink;
-    </script>
   </main>
 
   <footer>
@@ -52,5 +77,83 @@
       <p>&copy; 2025 Alliance WOS - Tous droits réservés.</p>
     </div>
   </footer>
+
+  <script>
+    // Fonction pour charger la liste des fichiers JSON dans data/tutorial
+    async function chargerListeTutoriels() {
+      // On récupère la liste des fichiers JSON depuis l'API GitHub (repo public)
+      // Si tu veux éviter l'API GitHub, il faut un fichier index manuel ou une autre méthode
+      const urlIndex = 'data/tutorial/index.json'; // option possible (voir plus bas)
+
+      try {
+        // Méthode simple : on a un fichier index.json listant les tutos (recommandé)
+        // Sinon, on peut essayer d’appeler la GitHub API directement, mais CORS bloque souvent.
+        
+        // Pour commencer, on suppose que tu as un fichier index.json que tu mets à jour avec la liste des tutos
+        const res = await fetch(urlIndex);
+        if (!res.ok) throw new Error("Index tutoriels non trouvé");
+        const tutoriels = await res.json();
+
+        return tutoriels; // tableau d'objets { id, titre, fichier }
+      } catch (e) {
+        console.error("Erreur chargement index tutoriels :", e);
+        return null;
+      }
+    }
+
+    // Charger un tutoriel en JSON
+    async function chargerTuto(fichier) {
+      try {
+        const res = await fetch(`data/tutorial/${fichier}`);
+        if (!res.ok) throw new Error("Tutoriel introuvable");
+        const tuto = await res.json();
+        return tuto;
+      } catch (e) {
+        console.error("Erreur chargement tutoriel :", e);
+        return null;
+      }
+    }
+
+    // Générer les boutons et gérer affichage
+    async function initTutoriels() {
+      const containerBtns = document.getElementById('tuto-buttons');
+      const containerContenu = document.getElementById('tuto-content');
+
+      const tutoriels = await chargerListeTutoriels();
+      if (!tutoriels || tutoriels.length === 0) {
+        containerContenu.innerHTML = "<p>Aucun tutoriel disponible pour l'instant.</p>";
+        return;
+      }
+
+      containerBtns.innerHTML = '';
+      let boutonActif = null;
+
+      tutoriels.forEach(({ id, titre, fichier }, i) => {
+        const btn = document.createElement('button');
+        btn.textContent = titre;
+        btn.addEventListener('click', async () => {
+          if (boutonActif) boutonActif.classList.remove('active');
+          btn.classList.add('active');
+          boutonActif = btn;
+
+          containerContenu.innerHTML = "<p>Chargement...</p>";
+          const tuto = await chargerTuto(fichier);
+          if (tuto) {
+            containerContenu.innerHTML = tuto.contenu;
+          } else {
+            containerContenu.innerHTML = "<p>Erreur chargement du tutoriel.</p>";
+          }
+        });
+        containerBtns.appendChild(btn);
+
+        // Afficher le premier tutoriel par défaut
+        if (i === 0) {
+          btn.click();
+        }
+      });
+    }
+
+    document.addEventListener('DOMContentLoaded', initTutoriels);
+  </script>
 </body>
 </html>
