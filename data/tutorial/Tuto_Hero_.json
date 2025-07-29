@@ -48,7 +48,7 @@
     },
     {
       "type": "html",
-      "data": "<p>daz</p>"
+      "data": "<p>daz<img src=\"data/tutorial/images/image0_tuto2.png\" alt=\"Illustration\"></p>"
     },
     {
       "type": "html",
