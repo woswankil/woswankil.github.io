@@ -43,6 +43,10 @@
       "data": "daz"
     },
     {
+      "type": "image",
+      "data": "data/tutorial/images/image0_tuto2.png"
+    },
+    {
       "type": "text",
       "data": "daz"
     }
