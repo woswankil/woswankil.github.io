@@ -4,75 +4,75 @@
   "contenu": [
     {
       "type": "html",
-      "data": "<p style=\"text-align:left;\">Tuto 2 hero</p>"
+      "data": "<p style=\"text-align:left; font-size:11px\">Tuto 2 hero</p>"
     },
     {
       "type": "html",
-      "data": "<p style=\"text-align:left;\"></p>"
+      "data": "<p style=\"text-align:left; font-size:11px\"></p>"
     },
     {
       "type": "html",
-      "data": "<p style=\"text-align:left;\"><span style=\"font-size:36px\">PATATE BELGE EST LE MEILLEUR REPOSE PIED</span></p>"
+      "data": "<p style=\"text-align:left; font-size:36px\">PATATE BELGE EST LE MEILLEUR REPOSE PIED</p>"
     },
     {
       "type": "html",
-      "data": "<p style=\"text-align:left;\"></p>"
+      "data": "<p style=\"text-align:left; font-size:11px\"></p>"
     },
     {
       "type": "html",
-      "data": "<p style=\"text-align:center;\">dazdzada</p>"
+      "data": "<p style=\"text-align:center; font-size:11px\">dazdzada</p>"
     },
     {
       "type": "html",
-      "data": "<p style=\"text-align:justify;\">zd</p>"
+      "data": "<p style=\"text-align:justify; font-size:11px\">zd</p>"
     },
     {
       "type": "html",
-      "data": "<p style=\"text-align:justify;\">az</p>"
+      "data": "<p style=\"text-align:justify; font-size:11px\">az</p>"
     },
     {
       "type": "html",
-      "data": "<p style=\"text-align:justify;\"><b>daz</b></p>"
+      "data": "<p style=\"text-align:justify; font-size:11px\"><b>daz</b></p>"
     },
     {
       "type": "html",
-      "data": "<p style=\"text-align:left;\"><b>d</b></p>"
+      "data": "<p style=\"text-align:left; font-size:11px\"><b>d</b></p>"
     },
     {
       "type": "html",
-      "data": "<p style=\"text-align:left;\">azd</p>"
+      "data": "<p style=\"text-align:left; font-size:11px\">azd</p>"
     },
     {
       "type": "html",
-      "data": "<p style=\"text-align:right;\">az</p>"
+      "data": "<p style=\"text-align:right; font-size:11px\">az</p>"
     },
     {
       "type": "html",
-      "data": "<p style=\"text-align:right;\">daz<img src=\"data/tutorial/images/image0_tuto2.png\" alt=\"Illustration\"></p>"
+      "data": "<p style=\"text-align:right; font-size:11px\">daz<img src=\"data/tutorial/images/image0_tuto2.png\" alt=\"Illustration\"></p>"
     },
     {
       "type": "html",
-      "data": "<p style=\"text-align:left;\"></p>"
+      "data": "<p style=\"text-align:left; font-size:11px\"></p>"
     },
     {
       "type": "html",
-      "data": "<p style=\"text-align:center;\"><span style=\"font-size:33px\"><b>dazdazdzadazd</b></span></p>"
+      "data": "<p style=\"text-align:center; font-size:33px\"><b>dazdazdzadazd</b></p>"
     },
     {
       "type": "html",
-      "data": "<p style=\"text-align:center;\"><span style=\"font-size:33px\"><b>dazdvazgdvygahjzdvba</b></span></p>"
+      "data": "<p style=\"text-align:center; font-size:33px\"><b>dazdvazgdvygahjzdvba</b></p>"
     },
     {
       "type": "html",
-      "data": "<p style=\"text-align:center;\"><span style=\"font-size:33px\"><b>dahjzgbdhjzagdhjza</b></span></p>"
+      "data": "<p style=\"text-align:center; font-size:33px\"><b>dahjzgbdhjzagdhjza</b></p>"
     },
     {
       "type": "html",
-      "data": "<p style=\"text-align:center;\"><span style=\"font-size:33px\"><b>azihdgajzydbyhjazgdhjyazgdvbhazjvgdghjazvdhgazvdghzavdgazvgdz</b></span></p>"
+      "data": "<p style=\"text-align:center; font-size:33px\"><b>azihdgajzydbyhjazgdhjyazgdvbhazjvgdghjazvdhgazvdghzavdgazvgdz</b></p>"
     },
     {
       "type": "html",
-      "data": "<p style=\"text-align:left;\"></p>"
+      "data": "<p style=\"text-align:left; font-size:11px\"></p>"
     }
   ]
 }
