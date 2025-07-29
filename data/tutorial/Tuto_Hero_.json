@@ -32,15 +32,23 @@
     },
     {
       "type": "html",
-      "data": "<p style=\"text-align:justify; font-size:11px\"><b>daz</b></p>"
+      "data": "<ul>"
     },
     {
       "type": "html",
-      "data": "<p style=\"text-align:left; font-size:11px\"><b>d</b></p>"
+      "data": "<li style=\"text-align:justify; font-size:11px\"><b>daz</b></li>"
     },
     {
       "type": "html",
-      "data": "<p style=\"text-align:left; font-size:11px\">azd</p>"
+      "data": "<li style=\"text-align:left; font-size:11px\"><b>d</b></li>"
+    },
+    {
+      "type": "html",
+      "data": "<li style=\"text-align:left; font-size:11px\">azd</li>"
+    },
+    {
+      "type": "html",
+      "data": "</ul>"
     },
     {
       "type": "html",
