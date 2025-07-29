@@ -8,6 +8,10 @@
     },
     {
       "type": "html",
+      "data": "<p style=\"text-align:left;\"><span style=\"font-size:26px\">FAUX Titre 1</span></p>"
+    },
+    {
+      "type": "html",
       "data": "<p style=\"text-align:left;\"></p>"
     },
     {
