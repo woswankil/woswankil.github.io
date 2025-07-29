@@ -32,11 +32,11 @@
     },
     {
       "type": "html",
-      "data": "<li>daz</li>"
+      "data": "<li><b>d</b><b>a</b><b>z</b></li>"
     },
     {
       "type": "html",
-      "data": "<li>d</li>"
+      "data": "<li><b>d</b></li>"
     },
     {
       "type": "html",
@@ -56,7 +56,7 @@
     },
     {
       "type": "html",
-      "data": "<p>daz</p>"
+      "data": "<p><span style=\"font-size:33px\"><b>d</b></span><span style=\"font-size:33px\"><b>a</b></span><span style=\"font-size:33px\"><b>z</b></span></p>"
     },
     {
       "type": "html",
