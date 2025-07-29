@@ -3,52 +3,64 @@
   "titre": "Optimisation des h?ros",
   "contenu": [
     {
-      "type": "text",
-      "data": "Tuto 2 hero"
+      "type": "html",
+      "data": "<p>Tuto 2 hero</p>"
     },
     {
-      "type": "text",
-      "data": "AZDAZDAFAZEFAZF"
+      "type": "html",
+      "data": "<p></p>"
     },
     {
-      "type": "text",
-      "data": "dazdzada"
+      "type": "html",
+      "data": "<p>AZDAZDAFAZEFAZF</p>"
     },
     {
-      "type": "text",
-      "data": "zd"
+      "type": "html",
+      "data": "<p></p>"
     },
     {
-      "type": "text",
-      "data": "az"
+      "type": "html",
+      "data": "<p>dazdzada</p>"
     },
     {
-      "type": "text",
-      "data": "daz"
+      "type": "html",
+      "data": "<p>zd</p>"
     },
     {
-      "type": "text",
-      "data": "d"
+      "type": "html",
+      "data": "<p>az</p>"
     },
     {
-      "type": "text",
-      "data": "azd"
+      "type": "html",
+      "data": "<p>daz</p>"
     },
     {
-      "type": "text",
-      "data": "az"
+      "type": "html",
+      "data": "<p>d</p>"
     },
     {
-      "type": "text",
-      "data": "daz"
+      "type": "html",
+      "data": "<p>azd</p>"
     },
     {
-      "type": "image",
-      "data": "data/tutorial/images/image0_tuto2.png"
+      "type": "html",
+      "data": "<p>az</p>"
     },
     {
-      "type": "text",
-      "data": "daz"
+      "type": "html",
+      "data": "<p>daz</p>"
+    },
+    {
+      "type": "html",
+      "data": "<p></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p>daz</p>"
+    },
+    {
+      "type": "html",
+      "data": "<p></p>"
     }
   ]
 }
