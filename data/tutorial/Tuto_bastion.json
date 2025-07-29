@@ -4,7 +4,7 @@
   "contenu": [
     {
       "type": "html",
-      "data": "<p style=\"text-align:left; font-size:11px\">Titre 1 </p>"
+      "data": "<p style=\"text-align:left; font-size:50px\">Titre 1 </p>"
     },
     {
       "type": "html",
