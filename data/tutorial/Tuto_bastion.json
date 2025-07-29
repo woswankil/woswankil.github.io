@@ -4,87 +4,87 @@
   "contenu": [
     {
       "type": "html",
-      "data": "<p style=\"text-align:left;\">Titre 1 </p>"
+      "data": "<p style=\"text-align:left; font-size:11px\">Titre 1 </p>"
     },
     {
       "type": "html",
-      "data": "<p style=\"text-align:left;\"><span style=\"font-size:26px\">FAUX Titre 1</span></p>"
+      "data": "<p style=\"text-align:left; font-size:26px\">FAUX Titre 1</p>"
     },
     {
       "type": "html",
-      "data": "<p style=\"text-align:left;\"></p>"
+      "data": "<p style=\"text-align:left; font-size:11px\"></p>"
     },
     {
       "type": "html",
-      "data": "<p style=\"text-align:left;\">11 px</p>"
+      "data": "<p style=\"text-align:left; font-size:11px\">11 px</p>"
     },
     {
       "type": "html",
-      "data": "<p style=\"text-align:left;\"><b>11 px gras</b></p>"
+      "data": "<p style=\"text-align:left; font-size:11px\"><b>11 px gras</b></p>"
     },
     {
       "type": "html",
-      "data": "<p style=\"text-align:left;\"><span style=\"font-size:22px\">22 px</span></p>"
+      "data": "<p style=\"text-align:left; font-size:22px\">22 px</p>"
     },
     {
       "type": "html",
-      "data": "<p style=\"text-align:center;\"><span style=\"font-size:22px\">au centre</span></p>"
+      "data": "<p style=\"text-align:center; font-size:22px\">au centre</p>"
     },
     {
       "type": "html",
-      "data": "<p style=\"text-align:right;\"><span style=\"font-size:22px\">a droite</span></p>"
+      "data": "<p style=\"text-align:right; font-size:22px\">a droite</p>"
     },
     {
       "type": "html",
-      "data": "<p style=\"text-align:left;\"><span style=\"font-size:22px\">listes</span></p>"
+      "data": "<p style=\"text-align:left; font-size:22px\">listes</p>"
     },
     {
       "type": "html",
-      "data": "<p style=\"text-align:left;\"><span style=\"font-size:22px\">1</span></p>"
+      "data": "<p style=\"text-align:left; font-size:22px\">1</p>"
     },
     {
       "type": "html",
-      "data": "<p style=\"text-align:left;\"><span style=\"font-size:22px\">2</span></p>"
+      "data": "<p style=\"text-align:left; font-size:22px\">2</p>"
     },
     {
       "type": "html",
-      "data": "<p style=\"text-align:left;\"><span style=\"font-size:22px\">3</span></p>"
+      "data": "<p style=\"text-align:left; font-size:22px\">3</p>"
     },
     {
       "type": "html",
-      "data": "<p style=\"text-align:left;\"></p>"
+      "data": "<p style=\"text-align:left; font-size:11px\"></p>"
     },
     {
       "type": "html",
-      "data": "<p style=\"text-align:left;\"><span style=\"font-size:18px\">long texte long texte long texte long texte long texte long texte long texte long texte long texte long texte long texte long texte long texte long texte long texte long texte long texte long texte long texte long texte long texte long texte long texte long texte long texte long texte long texte </span></p>"
+      "data": "<p style=\"text-align:left; font-size:18px\">long texte long texte long texte long texte long texte long texte long texte long texte long texte long texte long texte long texte long texte long texte long texte long texte long texte long texte long texte long texte long texte long texte long texte long texte long texte long texte long texte </p>"
     },
     {
       "type": "html",
-      "data": "<p style=\"text-align:left;\"></p>"
+      "data": "<p style=\"text-align:left; font-size:11px\"></p>"
     },
     {
       "type": "html",
-      "data": "<p style=\"text-align:left;\"><span style=\"font-size:18px\"><b>long texte GRAS long texte GRAS long texte GRAS long texte GRAS long texte GRAS long texte GRAS long texte GRAS long texte GRAS long texte GRAS long texte GRAS long texte GRAS long texte GRAS long texte GRAS long texte GRAS long texte GRAS long texte GRAS long texte GRAS long texte GRAS long texte GRAS long texte GRAS long texte GRAS long texte GRAS long texte GRAS long texte GRAS </b></span></p>"
+      "data": "<p style=\"text-align:left; font-size:18px\"><b>long texte GRAS long texte GRAS long texte GRAS long texte GRAS long texte GRAS long texte GRAS long texte GRAS long texte GRAS long texte GRAS long texte GRAS long texte GRAS long texte GRAS long texte GRAS long texte GRAS long texte GRAS long texte GRAS long texte GRAS long texte GRAS long texte GRAS long texte GRAS long texte GRAS long texte GRAS long texte GRAS long texte GRAS </b></p>"
     },
     {
       "type": "html",
-      "data": "<p style=\"text-align:left;\"></p>"
+      "data": "<p style=\"text-align:left; font-size:11px\"></p>"
     },
     {
       "type": "html",
-      "data": "<p style=\"text-align:left;\"><span style=\"font-size:22px\">image</span></p>"
+      "data": "<p style=\"text-align:left; font-size:22px\">image</p>"
     },
     {
       "type": "html",
-      "data": "<p style=\"text-align:right;\"><img src=\"data/tutorial/images/image0_tuto1.png\" alt=\"Illustration\"></p>"
+      "data": "<p style=\"text-align:right; font-size:11px\"><img src=\"data/tutorial/images/image0_tuto1.png\" alt=\"Illustration\"></p>"
     },
     {
       "type": "html",
-      "data": "<p style=\"text-align:left;\"></p>"
+      "data": "<p style=\"text-align:left; font-size:11px\"></p>"
     },
     {
       "type": "html",
-      "data": "<p style=\"text-align:left;\"></p>"
+      "data": "<p style=\"text-align:left; font-size:11px\"></p>"
     }
   ]
 }
