@@ -6,49 +6,6 @@
   <title>Tutoriels - Alliance WOS</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="icon" href="favicon.ico" type="image/x-icon" />
-  <style>
-    #tuto-buttons {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      margin-bottom: 20px;
-    }
-    #tuto-buttons button {
-      background-color: #ff9f43;
-      border: none;
-      padding: 8px 15px;
-      border-radius: 4px;
-      cursor: pointer;
-      color: #fff;
-      font-weight: bold;
-      transition: background-color 0.3s ease;
-    }
-    #tuto-buttons button:hover, #tuto-buttons button.active {
-      background-color: #e07b1a;
-    }
-    #tuto-content {
-      background: rgba(255, 255, 255, 0.05);
-      border-radius: 6px;
-      padding: 15px;
-      min-height: 150px;
-      color: white;
-      font-size: 1rem;
-      line-height: 1.5;
-    }
-    #tuto-content img {
-      max-width: 100%;
-      margin: 15px 0;
-      border-radius: 4px;
-      display: block;
-    }
-    #tuto-content h1, #tuto-content h2, #tuto-content h3 {
-      margin: 20px 0 10px;
-      color: #ff9f43;
-    }
-    #tuto-content ul {
-      padding-left: 20px;
-    }
-  </style>
 </head>
 <body>
   <header>
@@ -91,6 +48,7 @@
   </footer>
 
   <script>
+
     async function chargerListeTutoriels() {
       try {
         const res = await fetch('data/tutorial/index.json');
