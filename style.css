@@ -518,5 +518,319 @@ footer {
   }
 }
 
+/* ========================================
+   STYLES SPÉCIFIQUES À LA PAGE TUTORIEL
+   ======================================== */
 
+/* ========================================
+   SECTION BOUTONS TUTORIELS
+   ======================================== */
+#tuto-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 30px;
+  justify-content: center;
+}
 
+#tuto-buttons button {
+  /* Base */
+  background: linear-gradient(135deg, #ff9f43 0%, #f39c12 100%);
+  border: 2px solid #ff9f43;
+  border-radius: 30px;
+  cursor: pointer;
+  
+  /* Typographie */
+  color: #1f273b;
+  font-weight: bold;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  text-align: center;
+  
+  /* Dimensions */
+  padding: 15px 25px;
+  min-width: 200px;
+  max-width: 300px;
+  
+  /* Effets visuels */
+  box-shadow: 0 4px 15px rgba(255, 159, 67, 0.3);
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  
+  /* Transitions */
+  transition: all 0.3s ease;
+}
+
+/* Effet de balayage lumineux */
+#tuto-buttons button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+  transition: left 0.6s ease-in-out;
+  z-index: 1;
+}
+
+#tuto-buttons button:hover::before {
+  left: 100%;
+}
+
+/* États des boutons */
+#tuto-buttons button:hover {
+  background: linear-gradient(135deg, #e07b1a 0%, #d68910 100%);
+  border-color: #e07b1a;
+  box-shadow: 0 6px 20px rgba(255, 159, 67, 0.5);
+  transform: translateY(-2px);
+}
+
+#tuto-buttons button.active {
+  background: linear-gradient(135deg, #e07b1a 0%, #d68910 100%);
+  border-color: #e07b1a;
+  box-shadow: 0 0 20px rgba(255, 159, 67, 0.7);
+  transform: scale(1.05);
+}
+
+#tuto-buttons button:active {
+  transform: translateY(0) scale(0.98);
+}
+
+/* ========================================
+   SECTION CONTENU TUTORIEL
+   ======================================== */
+#tuto-content {
+  /* Base */
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 15px;
+  padding: 25px;
+  min-height: 200px;
+  
+  /* Typographie */
+  color: white;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  text-align: center;
+  
+  /* Bordures et ombres */
+  border: 1px solid rgba(255, 159, 67, 0.2);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  
+  /* Prévention du débordement renforcée */
+  overflow-wrap: anywhere;
+  word-wrap: break-word;
+  word-break: break-word;
+  hyphens: auto;
+  overflow-x: hidden;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+/* ========================================
+   ÉLÉMENTS DE CONTENU
+   ======================================== */
+
+/* Images */
+#tuto-content img {
+  max-width: 100%;
+  margin: 20px 0;
+  border-radius: 10px;
+  display: block;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  border: 2px solid rgba(255, 159, 67, 0.3);
+}
+
+/* Titres */
+#tuto-content h1, 
+#tuto-content h2, 
+#tuto-content h3 {
+  margin: 25px 0 15px;
+  color: #ff9f43;
+  text-shadow: 0 0 10px rgba(255, 159, 67, 0.3);
+}
+
+#tuto-content h1 {
+  font-size: 2.2rem;
+  border-bottom: 2px solid #ff9f43;
+  padding-bottom: 10px;
+  
+  /* Prévention du débordement renforcée */
+  overflow-wrap: anywhere;
+  word-wrap: break-word;
+  word-break: break-word;
+  hyphens: auto;
+  box-sizing: border-box;
+}
+
+#tuto-content h2 {
+  font-size: 1.8rem;
+  
+  /* Prévention du débordement renforcée */
+  overflow-wrap: anywhere;
+  word-wrap: break-word;
+  word-break: break-word;
+  hyphens: auto;
+  box-sizing: border-box;
+}
+
+#tuto-content h3 {
+  font-size: 1.4rem;
+  
+  /* Prévention du débordement renforcée */
+  overflow-wrap: anywhere;
+  word-wrap: break-word;
+  word-break: break-word;
+  hyphens: auto;
+  box-sizing: border-box;
+}
+
+/* Paragraphes */
+#tuto-content p {
+  margin: 15px 0;
+  text-align: center;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  
+  /* Prévention du débordement renforcée */
+  overflow-wrap: anywhere;
+  word-wrap: break-word;
+  word-break: break-word;
+  hyphens: auto;
+  box-sizing: border-box;
+}
+
+/* Formatage de texte */
+#tuto-content b {
+  font-weight: bold;
+}
+
+#tuto-content i {
+  font-style: italic;
+}
+
+/* ========================================
+   LISTES - Surcharge complète du CSS global
+   ======================================== */
+#tuto-content ul {
+  margin: 15px auto;
+  list-style: disc;
+  padding-left: 20px;
+  max-width: 800px;
+}
+
+#tuto-content li {
+  margin: 8px 0;
+  padding: 0;
+  text-align: left;
+  color: white;
+  
+  /* Prévention du débordement renforcée */
+  overflow-wrap: anywhere;
+  word-wrap: break-word;
+  word-break: break-word;
+  hyphens: auto;
+  box-sizing: border-box;
+}
+
+/* Couleur des puces */
+#tuto-content li::marker {
+  color: #ff9f43;
+}
+
+/* Suppression des puces du CSS global */
+#tuto-content li::before {
+  display: none !important;
+}
+
+/* ========================================
+   DESIGN RESPONSIVE POUR TUTORIEL
+   ======================================== */
+
+/* Tablettes */
+@media (max-width: 768px) {
+  #tuto-buttons {
+    gap: 10px;
+  }
+  
+  #tuto-buttons button {
+    padding: 12px 20px;
+    font-size: 1rem;
+    min-width: 150px;
+    max-width: 250px;
+  }
+  
+  #tuto-content {
+    padding: 20px;
+    font-size: 1rem;
+    
+    /* Prévention du débordement renforcée */
+    overflow-wrap: anywhere;
+    word-wrap: break-word;
+    word-break: break-word;
+    hyphens: auto;
+    overflow-x: hidden;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+  
+  #tuto-content p {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+  
+  #tuto-content ul {
+    max-width: 100%;
+    padding-left: 15px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  #tuto-buttons button {
+    padding: 10px 15px;
+    font-size: 0.9rem;
+    min-width: 120px;
+    max-width: 200px;
+  }
+  
+  #tuto-content {
+    padding: 15px;
+    font-size: 0.95rem;
+    
+    /* Prévention du débordement renforcée */
+    overflow-wrap: anywhere;
+    word-wrap: break-word;
+    word-break: break-word;
+    hyphens: auto;
+    overflow-x: hidden;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+  
+  #tuto-content p {
+    max-width: 100%;
+    padding: 0 5px;
+  }
+  
+  #tuto-content ul {
+    max-width: 100%;
+    padding-left: 10px;
+  }
+  
+  #tuto-content h1 {
+    font-size: 1.8rem;
+  }
+  
+  #tuto-content h2 {
+    font-size: 1.5rem;
+  }
+  
+  #tuto-content h3 {
+    font-size: 1.2rem;
+  }
+}
