@@ -1,0 +1,86 @@
+{
+  "id": "tuto2",
+  "titre": "Equipement des héros",
+  "contenu": [
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\">Tuto 2 hero</p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:36px\"><span style=\"font-size:36px;\">PATATE BELGE EST LE MEILLEUR REPOSE PIED</span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:center; font-size:11px\">dazdzada</p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:justify; font-size:11px\">zd</p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:justify; font-size:11px\">az</p>"
+    },
+    {
+      "type": "html",
+      "data": "<ul>"
+    },
+    {
+      "type": "html",
+      "data": "<li style=\"text-align:justify; font-size:11px\"><b>daz</b></li>"
+    },
+    {
+      "type": "html",
+      "data": "<li style=\"text-align:left; font-size:11px\"><b>d</b></li>"
+    },
+    {
+      "type": "html",
+      "data": "<li style=\"text-align:left; font-size:11px\">azd</li>"
+    },
+    {
+      "type": "html",
+      "data": "</ul>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:right; font-size:11px\"><span style=\"color: #ff0000;\">az</span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:right; font-size:11px\"><span style=\"color: #ff0000;\">daz</span><img src=\"data/tutorial/images/image0_tuto2.png\" alt=\"Illustration\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:33px\"><span style=\"font-size:33px;\"><b>dazdazdzadazd</b></span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:33px\"><span style=\"font-size:33px;\"><b>dazdvazgdvygahjzdvba</b></span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:33px\"><span style=\"font-size:33px;\"><b>dahjzgbdhjzagdhjza</b></span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:33px\"><span style=\"font-size:33px;\"><b>azihdgajzydbyhjazgdhjyazgdvbhazjvgdghjazvdhgazvdghzavdgazvgdz</b></span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"></p>"
+    }
+  ]
+}
