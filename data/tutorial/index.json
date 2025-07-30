@@ -1,17 +1,17 @@
 [
   {
     "id": "tuto1",
-    "titre": "Optimisation des h?ros",
+    "titre": "Optimisation des héros",
     "fichier": "Optimisation_des_h_ros.json"
   },
   {
     "id": "tuto2",
-    "titre": "Equipement des h?ros",
+    "titre": "Equipement des héros",
     "fichier": "Equipement_des_h_ros.json"
   },
   {
     "id": "tuto3",
-    "titre": "Comp?tences des h?ros",
+    "titre": "Compétences des héros",
     "fichier": "Comp_tences_des_h_ros.json"
   },
   {
@@ -26,7 +26,7 @@
   },
   {
     "id": "tuto6",
-    "titre": "L?Ours",
+    "titre": "L’Ours",
     "fichier": "L_Ours.json"
   },
   {
@@ -56,7 +56,7 @@
   },
   {
     "id": "tuto12",
-    "titre": "Le ch?teau solaire",
+    "titre": "Le château solaire",
     "fichier": "Le_ch_teau_solaire.json"
   },
   {
