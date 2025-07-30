@@ -8,5 +8,10 @@
     "id": "tuto2",
     "titre": "Equipement des h?ros",
     "fichier": "Equipement_des_h_ros.json"
+  },
+  {
+    "id": "tuto3",
+    "titre": "Comp?tences des h?ros",
+    "fichier": "Comp_tences_des_h_ros.json"
   }
 ]
