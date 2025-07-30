@@ -2,11 +2,11 @@
   {
     "id": "tuto1",
     "titre": "Optimisation des h?ros",
-    "fichier": "L_Ours.json"
+    "fichier": "Optimisation_des_h_ros.json"
   },
   {
     "id": "tuto2",
     "titre": "Equipement des h?ros",
-    "fichier": "Tuto_Hero_.json"
+    "fichier": "Equipement_des_h_ros.json"
   }
 ]
