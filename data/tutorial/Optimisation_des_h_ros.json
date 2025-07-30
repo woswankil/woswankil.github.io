@@ -28,6 +28,10 @@
     },
     {
       "type": "html",
+      "data": "<p style=\"text-align:left; font-size:22px\">A GAUCHE EN ITALIQUE</p>"
+    },
+    {
+      "type": "html",
       "data": "<p style=\"text-align:center; font-size:22px\">au centre</p>"
     },
     {
