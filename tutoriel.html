@@ -81,7 +81,8 @@
       try {
         return contenu.map(el => {
           if (el.type === "html") {
-            return el.data; // Contenu déjà sécurisé côté serveur
+            // Remplacer les <p></p> vides par <p>&nbsp;</p>
+            return el.data.replace(/<p([^>]*)><\/p>/g, '<p$1>&nbsp;</p>');
           } else if (el.type === "text") {
             return `<p>${escapeHTML(el.data)}</p>`;
           } else if (el.type === "image") {
@@ -96,6 +97,8 @@
         return "<p>Erreur affichage contenu.</p>";
       }
     }
+
+
 
     async function initTutoriels() {
       const containerBtns = document.getElementById('tuto-buttons');
