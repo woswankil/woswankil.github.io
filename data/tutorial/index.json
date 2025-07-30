@@ -2,17 +2,17 @@
   {
     "id": "tuto1",
     "titre": "Optimisation des héros",
-    "fichier": "Optimisation_des_h_ros.json"
+    "fichier": "Optimisation_des_heros.json"
   },
   {
     "id": "tuto2",
     "titre": "Equipement des héros",
-    "fichier": "Equipement_des_h_ros.json"
+    "fichier": "Equipement_des_heros.json"
   },
   {
     "id": "tuto3",
     "titre": "Compétences des héros",
-    "fichier": "Comp_tences_des_h_ros.json"
+    "fichier": "Competences_des_heros.json"
   },
   {
     "id": "tuto4",
@@ -37,7 +37,7 @@
   {
     "id": "tuto8",
     "titre": "Les mercenaires",
-    "fichier": "Les_mercenaires_du_Panth_on.json"
+    "fichier": "Les_mercenaires_du_Pantheon.json"
   },
   {
     "id": "tuto9",
@@ -57,7 +57,7 @@
   {
     "id": "tuto12",
     "titre": "Le château solaire",
-    "fichier": "Le_ch_teau_solaire.json"
+    "fichier": "Le_chateau_solaire.json"
   },
   {
     "id": "tuto13",
