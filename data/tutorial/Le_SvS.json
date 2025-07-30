@@ -1,0 +1,146 @@
+{
+  "id": "tuto10",
+  "titre": "Le SvS",
+  "contenu": [
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:12px\">Le SVS (Server Vs Server) est un combat entre deux serveurs qui revient tous les mois. </p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:12px\">Il y a 2 jours de matchmaking, 5 jours de préparation puis 1 jour de combat durant lequel il faut prendre le château solaire. </p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:12px\">En dehors des SvS, on <u>économise</u> une majorité d’objets pour pouvoir faire un maximum de points quand l’événement arrive.</p>"
+    },
+    {
+      "type": "html",
+      "data": "<ul>"
+    },
+    {
+      "type": "html",
+      "data": "<li style=\"text-align:left; font-size:12px\">Liste des objets à économiser pour le svs :</li>"
+    },
+    {
+      "type": "html",
+      "data": "<li style=\"text-align:left; font-size:12px\">cristaux ardents (ordinaire et avancés)</li>"
+    },
+    {
+      "type": "html",
+      "data": "<li style=\"text-align:left; font-size:12px\">TOUS les accélérateurs possibles</li>"
+    },
+    {
+      "type": "html",
+      "data": "<li style=\"text-align:left; font-size:12px\">les talismans de chef</li>"
+    },
+    {
+      "type": "html",
+      "data": "<li style=\"text-align:left; font-size:12px\">les fragments de héros</li>"
+    },
+    {
+      "type": "html",
+      "data": "<li style=\"text-align:left; font-size:12px\">l'endurance de chef</li>"
+    },
+    {
+      "type": "html",
+      "data": "<li style=\"text-align:left; font-size:12px\">pierres d'essence</li>"
+    },
+    {
+      "type": "html",
+      "data": "<li style=\"text-align:left; font-size:12px\">nourriture pour animaux</li>"
+    },
+    {
+      "type": "html",
+      "data": "<li style=\"text-align:left; font-size:12px\">marques sauvages ordinaires et avancées pour animaux</li>"
+    },
+    {
+      "type": "html",
+      "data": "<li style=\"text-align:left; font-size:12px\">Composants d'équipements de héros mythique</li>"
+    },
+    {
+      "type": "html",
+      "data": "<li style=\"text-align:left; font-size:12px\">Diamants</li>"
+    },
+    {
+      "type": "html",
+      "data": "</ul>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:12px\"><b>PHASE DE PRÉPARATION</b></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:12px\">Pour chaque jour de préparation, certaines actions donnent des points. </p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:12px\">Beaucoup d'actions se recoupent entre les jours, certaines sont donc plus opti à faire sur certains jours que d'autres :</p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"><img src=\"data/tutorial/images/image0_tuto10.png\" alt=\"Illustration\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:12px\">L'état gagnant de la phase de préparation obtient un bonus de soin et un bonus pour bureau d'enrôlement.</p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:12px\">Sur le server 1911, le Nap distribue les Forts en fonction des résultats de la phase de préparation donc il est important pour nous de scorer.</p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:12px\"><b>JOUR DE COMBAT</b></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:12px\">Les joueurs de chacun des servers peuvent se tp sur l’autre server pour attaquer.</p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:12px\">Chacun peut attaquer les villes (uniquement si les 2 joueurs ont moins de 3 niveaux de chaudière d'écart)</p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:12px\">Le château du perdant de la phase de préparation est attaquable par le gagnant. </p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:12px\">Le château du gagnant est sous bouclier. </p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:12px\">Les TP sur les territoires d'alliances du serv opposé sont possibles ! Donc potentiellement des gens vont se TP dans notre cluster. Les bannières et les QG d'alliance ne sont pas attaquables par le serv adverse.</p>"
+    }
+  ]
+}
