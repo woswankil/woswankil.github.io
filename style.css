@@ -605,7 +605,7 @@ footer {
    ======================================== */
 #tuto-content {
   /* Base */
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(0, 0, 0, 0.33);
   border-radius: 15px;
   padding: 25px;
   min-height: 200px;
@@ -629,6 +629,12 @@ footer {
   max-width: 100%;
   box-sizing: border-box;
 }
+
+#content p:empty {
+  min-height: 1em; /* ou 1.2em selon ton besoin */
+  margin: 0.5em 0;
+}
+
 
 /* ========================================
    ÉLÉMENTS DE CONTENU
