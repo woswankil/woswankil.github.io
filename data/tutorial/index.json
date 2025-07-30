@@ -13,5 +13,55 @@
     "id": "tuto3",
     "titre": "Comp?tences des h?ros",
     "fichier": "Comp_tences_des_h_ros.json"
+  },
+  {
+    "id": "tuto4",
+    "titre": "Les talismans",
+    "fichier": "Les_talismans.json"
+  },
+  {
+    "id": "tuto5",
+    "titre": "Les animaux",
+    "fichier": "Les_animaux.json"
+  },
+  {
+    "id": "tuto6",
+    "titre": "L?Ours",
+    "fichier": "L_Ours.json"
+  },
+  {
+    "id": "tuto7",
+    "titre": "Joe le fou",
+    "fichier": "Joe_le_fou.json"
+  },
+  {
+    "id": "tuto8",
+    "titre": "Les mercenaires du Panth?on",
+    "fichier": "Les_mercenaires_du_Panth_on.json"
+  },
+  {
+    "id": "tuto9",
+    "titre": "Le SvS",
+    "fichier": "Le_SvS.json"
+  },
+  {
+    "id": "tuto10",
+    "titre": "La fonderie",
+    "fichier": "La_fonderie.json"
+  },
+  {
+    "id": "tuto11",
+    "titre": "Le canyon",
+    "fichier": "Le_canyon.json"
+  },
+  {
+    "id": "tuto12",
+    "titre": "Le ch?teau solaire",
+    "fichier": "Le_ch_teau_solaire.json"
+  },
+  {
+    "id": "tuto13",
+    "titre": "La mine Givrefeu",
+    "fichier": "La_mine_Givrefeu.json"
   }
 ]
