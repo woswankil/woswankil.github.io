@@ -28,7 +28,7 @@
     },
     {
       "type": "html",
-      "data": "<p style=\"text-align:left; font-size:22px\">A GAUCHE EN ITALIQUE</p>"
+      "data": "<p style=\"text-align:left; font-size:22px\"><i>A gauche en italique</i></p>"
     },
     {
       "type": "html",
