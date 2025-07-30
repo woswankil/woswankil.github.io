@@ -1,0 +1,10 @@
+{
+  "id": "tuto5",
+  "titre": "Les animaux",
+  "contenu": [
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"></p>"
+    }
+  ]
+}
