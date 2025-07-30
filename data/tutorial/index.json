@@ -1,12 +1,12 @@
 [
   {
     "id": "tuto1",
-    "titre": "Construire un bastion",
-    "fichier": "Tuto_bastion.json"
+    "titre": "Optimisation des h?ros",
+    "fichier": "L_Ours.json"
   },
   {
     "id": "tuto2",
-    "titre": "Optimisation des h?ros",
+    "titre": "Equipement des h?ros",
     "fichier": "Tuto_Hero_.json"
   }
 ]
