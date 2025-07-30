@@ -25,42 +25,47 @@
     "fichier": "Les_animaux.json"
   },
   {
-    "id": "tuto6",
+    "id": "Tuto6",
+    "titre": "Infirmerie et enrôlement",
+    "fichier": "Infirmerie_et_enrolement.json"
+  },
+  {
+    "id": "tuto7",
     "titre": "L’Ours",
     "fichier": "L_Ours.json"
   },
   {
-    "id": "tuto7",
+    "id": "tuto8",
     "titre": "Joe le fou",
     "fichier": "Joe_le_fou.json"
   },
   {
-    "id": "tuto8",
+    "id": "tuto9",
     "titre": "Les mercenaires",
     "fichier": "Les_mercenaires_du_Pantheon.json"
   },
   {
-    "id": "tuto9",
+    "id": "tuto10",
     "titre": "Le SvS",
     "fichier": "Le_SvS.json"
   },
   {
-    "id": "tuto10",
+    "id": "tuto11",
     "titre": "La fonderie",
     "fichier": "La_fonderie.json"
   },
   {
-    "id": "tuto11",
+    "id": "tuto12",
     "titre": "Le canyon",
     "fichier": "Le_canyon.json"
   },
   {
-    "id": "tuto12",
+    "id": "tuto13",
     "titre": "Le château solaire",
     "fichier": "Le_chateau_solaire.json"
   },
   {
-    "id": "tuto13",
+    "id": "tuto14",
     "titre": "La mine Givrefeu",
     "fichier": "La_mine_Givrefeu.json"
   }
