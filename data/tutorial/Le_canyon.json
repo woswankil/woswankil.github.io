@@ -1,0 +1,182 @@
+{
+  "id": "tuto12",
+  "titre": "Le canyon",
+  "contenu": [
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\">Le canyon est un combat de territoire entre trois alliances.</p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\">Il y a une carte (ci-dessous) avec plein de bâtiments à prendre. Le but est de gagner le plus de points possibles en occupant ces bâtiments. </p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\">Chaque alliance se trouve d’un côté de la carte et peut envahir le territoire ennemi en occupant les aéroports. Il y en a 6 par territoire (entourés en rouge).</p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\"> <img src=\"data/tutorial/images/image0_tuto12.png\" alt=\"Illustration\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\">Pour vous déplacer, soigner, et reformer vos troupes, vous consommerez du fuel. Il y a 2 façons d'en gagner :</p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\">·         Vous en gagnez automatiquement avec le temps</p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\">·         Un R4 peut vous nommer gardien si vous occupez un bâtiment. Être gardien permet d'en gagner plus.</p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\">L'évènement se découpe en 3 étapes :</p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\">1.      Prendre tous les bâtiments de notre zone et essayer d'occuper ceux des ennemis si possible.</p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\">2.      Ouverture des Forts, ils rapportent plus de points que les bâtiments précédents. Chaque alliance a un fort dans sa zone.</p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\">3.      Ouverture de la Citadelle : le bâtiment qui rapporte le plus de points. Il y en a qu'un seul au milieu de la map.</p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\">Les groupes se diviseront en 3 :</p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\"><b>1-</b>     <b>Nord</b></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\"><b>2-</b> \t<b>Centre</b></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\"><b>3-</b> \t<b>Sud</b></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"><img src=\"data/tutorial/images/image1_tuto12.png\" alt=\"Illustration\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\">Dans chacun de ces groupes, il y aura des sous-équipes :</p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\">1-     Équipe 1 : Les forts</p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\">2-     Équipe 2 : Les moyens</p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\">3-     Équipe 3 : Les faibles</p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\"> </p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:20px\"><b>La stratégie pour l'équipe 1 (6 personnes)</b><b> :  </b>Vous devez utiliser la première file (la plus forte) pour envahir l'ennemi. La deuxième file pour défendre l'aéroport et la troisième va dans les bâtiments de notre territoire s'ils sont attaqués.</p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:20px\"><b>La stratégie pour l'équipe 2 (8 personnes) :</b><b> </b>Attaquez la zone ennemie en fonction de votre groupe avec les 3 files.</p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:20px\"><b>La stratégie pour l'équipe 3 (16 personnes) :</b><b> </b>Vous allez aider à envahir la zone ennemie avec la file la plus forte. Les deux autres files vont défendre notre fort et nos bâtiments.</p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:center; font-size:18px\">\r <u><b>Ouverture de la citadelle</b></u></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\"> <img src=\"data/tutorial/images/image2_tuto12.png\" alt=\"Illustration\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:20px\"><b>Équipe 1 :</b></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:justify; font-size:18px\">·         Être prêt dans les aéroports (en rouge) la reliant 20s avant l’ouverture pour s’y rendre <b>le plus vite possible</b> avec les 2 premières marches pour en prendre le contrôle.</p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\">·         Il faudra alors mettre la 3eme marche pour défendre les aéroports.</p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:20px\"><b>Équipe 2 :</b></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\">·         Aller en support de la première équipe dans la citadelle s'il y a du répondant en face, sinon occupez les zones ennemies menant à la citadelle (notamment les aéroports en rouge)</p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\">·         Défendez la zone de votre groupe.</p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:20px\"><b>Équipe 3 :</b></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\">·         Aidez la deuxième équipe à occuper les zones ennemies menant à la citadelle (notamment les aéroports en rouge)</p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\">·         Défendez la zone de votre groupe.</p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\">Si les adversaires sont trop forts, il vaut mieux défendre notre zone plutôt qu'attaquer celles des ennemis.</p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"></p>"
+    }
+  ]
+}
