@@ -1,0 +1,10 @@
+{
+  "id": "tuto8",
+  "titre": "Joe le fou",
+  "contenu": [
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"></p>"
+    }
+  ]
+}
