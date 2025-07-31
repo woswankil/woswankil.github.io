@@ -1,0 +1,10 @@
+{
+  "id": "tuto2",
+  "titre": "Equipement des héros",
+  "contenu": [
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"></p>"
+    }
+  ]
+}
