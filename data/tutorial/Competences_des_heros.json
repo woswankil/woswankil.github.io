@@ -1,0 +1,10 @@
+{
+  "id": "tuto3",
+  "titre": "Compétences des héros",
+  "contenu": [
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\">hehe</p>"
+    }
+  ]
+}
