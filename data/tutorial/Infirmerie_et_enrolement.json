@@ -1,0 +1,42 @@
+{
+  "id": "Tuto6",
+  "titre": "Infirmerie et enrôlement",
+  "contenu": [
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\"><span style=\"font-size:18px;\">Assurez-vous de ne jamais remplir votre infirmerie si possible !</span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\"><span style=\"font-size:18px;\">Si le nombre de blessés dépasse la capacité de l'Infirmerie, les troupes meurent. Cependant, le Bureau d'Enrôlement peut sauver 70 % de ces troupes. </span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\"><span style=\"font-size:18px;\">Le bureau d’enrôlement a une capacité équivalente à quatre fois celle de l'infirmerie. </span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\"><span style=\"font-size:18px;\">Des points de loyauté se cumulent dans le bureau d’enrôlement avec le temps. Ils permettent de récupérer les troupes petit à petit.</span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\"><span style=\"font-size:18px;\">Note : Les points de loyauté sont cumulés uniquement quand il y a des troupes dans le Bureau d'Enrôlement. Le taux de loyauté augmentera plus rapidement si ton infirmerie est vide (cela deviendra donc ta priorité).</span></p>"
+    }
+  ]
+}
