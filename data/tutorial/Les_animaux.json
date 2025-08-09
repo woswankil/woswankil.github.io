@@ -1,0 +1,274 @@
+{
+  "id": "tuto5",
+  "titre": "Les animaux",
+  "contenu": [
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:22px\"><span style=\"font-size:22px;\"><b>Critères pour débloquer les animaux de compagnie dans Whiteout Survival</b></span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\"><span style=\"font-size:18px;\">Âge de l'État et niveau de la fonderie : Assurez-vous que votre État a au moins 55 jours et que votre fonderie est au niveau 18. Cela débloque les animaux de compagnie de première génération : hyène des cavernes, loup arctique et bœuf musqué . Une fois ces deux conditions remplies, vous aurez accès à un nouveau bâtiment appelé \" Enclos\" où vous pourrez apprivoiser les animaux capturés dans la nature. </span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\"><span style=\"font-size:18px;\">Progression à travers les générations : </span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\"><span style=\"font-size:18px;\">- Génération 2 : Après 78 jours, débloquez le tapir géant et le titan roc en améliorant le bœuf musqué au niveau 15. </span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\"><span style=\"font-size:18px;\">- Génération 3 : Après 100/120 jours, débloquez l'élan géant et le léopard des neiges en améliorant le titan roc au niveau 15. </span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\"><span style=\"font-size:18px;\">- Génération 4 : Après 200 jours, débloquez le lion des cavernes et le singe des neiges en améliorant le léopard des neiges au niveau 15</span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:22px\"><span style=\"font-size:22px;\"><b>Améliorations du familier </b></span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\"><span style=\"font-size:18px;\">À chaque amélioration, vos familiers offrent des avantages encore plus importants à vos troupes. De plus, toutes les 10 améliorations, la compétence spéciale de votre familier reçoit une amélioration, ce qui le rend encore plus utile. </span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\"><span style=\"font-size:18px;\">Pour améliorer votre animal de compagnie, sélectionnez l'animal que vous souhaitez améliorer et sur l'écran suivant, vous trouverez l'option permettant de mettre à niveau votre animal de compagnie à l'aide de nourriture pour animaux.</span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\"><span style=\"font-size:18px;\">Pour faire passer vos familiers au niveau supérieur toutes les 10 améliorations, vous devez les « faire progresser ». Cette amélioration avancée nécessite des objets spécifiques, notamment un manuel d'apprivoisement, une potion énergisante et un sérum fortifiant. </span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\"><span style=\"font-size:18px;\">Vous n'aurez besoin de la potion énergisante que lorsque votre animal atteint le niveau 30, et le sérum fortifiant nécessaire que lorsque votre animal atteint le niveau 50.</span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:22px\"><span style=\"font-size:22px;\"><b>Le raffinement des familiers</b></span><span style=\"font-size:22px;\"> </span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\"><span style=\"font-size:18px;\">Il repose sur deux objets principaux : la marque sauvage commune et la marque sauvage avancée. </span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\"><span style=\"font-size:18px;\">Lorsque vous choisissez d'affiner vos troupes, vous remarquerez des changements dans les bonus que vos troupes reçoivent de vos familiers. Il est important de comprendre que ces changements peuvent soit améliorer vos troupes, soit les détériorer légèrement. L'affinage ne garantit pas des améliorations constantes des bonus des troupes. </span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\"><span style=\"font-size:18px;\">Si vous êtes satisfait des améliorations actuelles fournies grâce au raffinement, vous pouvez utiliser le bouton « Remplacer » pour conserver ces améliorations. Cependant, si vous recherchez de meilleurs buffs, vous pouvez utiliser l'option « Continuer le raffinement », qui consiste à utiliser davantage de marques sauvages communes ou avancées dans l'espoir d'obtenir des buffs améliorés pour vos troupes.</span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"><img src=\"data/tutorial/images/image0_tuto5.png\" alt=\"Illustration\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:22px\"><span style=\"font-size:22px;\"><b>Aventure </b></span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\"><span style=\"font-size:18px;\">Nécessaire pour rassembler les 4 objets essentiels requis pour les améliorations des animaux de compagnie : la nourriture, le manuel d'apprivoisement, la potion énergisante et le sérum fortifiant. </span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\"><span style=\"font-size:18px;\">Vous pouvez obtenir ces objets en envoyant vos animaux de compagnie à l'aventure pour découvrir des trésors. </span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\"><span style=\"font-size:18px;\">Envoyer un animal de compagnie à l'aventure coûte 10 points d'endurance et il faut quatre heures pour terminer son voyage jusqu'au trésor. Il y a 10 % de chances que votre animal tombe sur un trésor allié au cours de son aventure. Ces trésors alliés peuvent être partagés avec les membres de votre alliance, ce qui leur permet d'en tirer des récompenses. Vous pouvez également réclamer jusqu'à cinq trésors alliés partagés par les membres de votre alliance chaque jour. </span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\"><span style=\"font-size:18px;\">Chaque jour, vous avez quatre chances d'envoyer vos animaux à l'aventure. Vous pourrez tomber sur trois types de coffres au trésor, le rouge étant le plus précieux. Certains coffres au trésor peuvent exiger un niveau d’animal spécifique avant de pouvoir lancer la tentative d’aventure.</span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"><img src=\"data/tutorial/images/image1_tuto5.png\" alt=\"Illustration\"><img src=\"data/tutorial/images/image2_tuto5.png\" alt=\"Illustration\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:22px\"><span style=\"font-size:22px;\"><b>Compétences</b></span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"><img src=\"data/tutorial/images/image3_tuto5.png\" alt=\"Illustration\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"><img src=\"data/tutorial/images/image4_tuto5.png\" alt=\"Illustration\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"><img src=\"data/tutorial/images/image5_tuto5.png\" alt=\"Illustration\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"><img src=\"data/tutorial/images/image6_tuto5.png\" alt=\"Illustration\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"><img src=\"data/tutorial/images/image7_tuto5.png\" alt=\"Illustration\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"><img src=\"data/tutorial/images/image8_tuto5.png\" alt=\"Illustration\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"><img src=\"data/tutorial/images/image9_tuto5.png\" alt=\"Illustration\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"><img src=\"data/tutorial/images/image10_tuto5.png\" alt=\"Illustration\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"><img src=\"data/tutorial/images/image11_tuto5.png\" alt=\"Illustration\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"><img src=\"data/tutorial/images/image12_tuto5.png\" alt=\"Illustration\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"><img src=\"data/tutorial/images/image13_tuto5.png\" alt=\"Illustration\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:22px\"><span style=\"font-size:22px;\"><b>Événement chuchoteur de bêtes</b></span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\"><span style=\"font-size:18px;\">Jour 1 </span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\"><span style=\"font-size:18px;\">- Connecte toi 5 jours </span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\"><span style=\"font-size:18px;\">- Recrute 30 héros (toutes clés confondues) </span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\"><span style=\"font-size:18px;\">- Améliore les animaux au niveau 35 </span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\"><span style=\"font-size:18px;\">Jour 2 </span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\"><span style=\"font-size:18px;\">- Faire 70 missions de renseignements</span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\"><span style=\"font-size:18px;\">- Utiliser 800 pts d'endurance </span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\"><span style=\"font-size:18px;\">- Affiner un animal de compagnie 30 fois </span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\"><span style=\"font-size:18px;\">Jour 3</span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\"><span style=\"font-size:18px;\">- Créer 15 rallyes sur terre polaire</span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\"><span style=\"font-size:18px;\">- Battre 40 bêtes</span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\"><span style=\"font-size:18px;\">- Récolter 15M de ressources</span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\"><span style=\"font-size:18px;\">Jour4</span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\"><span style=\"font-size:18px;\">- Dépenser 5K gemmes</span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\"><span style=\"font-size:18px;\">- Faire 100 contributions d'alliance</span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\"><span style=\"font-size:18px;\">- Faire 25 transactions chez le marchand nomade</span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\"><span style=\"font-size:18px;\">Jour 5</span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\"><span style=\"font-size:18px;\">- Dépenser 1500 min d'accélération</span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\"><span style=\"font-size:18px;\">- Augmenter sa puissance de 100K via les troupes</span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\"><span style=\"font-size:18px;\">- Réclamer 20 récompenses en ligne</span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"></p>"
+    }
+  ]
+}
