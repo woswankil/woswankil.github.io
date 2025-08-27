@@ -1,0 +1,130 @@
+{
+  "id": "tuto9",
+  "titre": "Les mercenaires",
+  "contenu": [
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:22px\"><span style=\"font-size:22px;\"><b>Défi personnel </b></span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\"><span style=\"font-size:18px;\">Choisissez votre difficulté (Facile, Normal, Difficile, Cauchemar, Fou,...).</span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\"><span style=\"font-size:18px;\">Vous devez avoir fini le niveau précédent avant de pouvoir passer à la difficulté suivante. Choisissez toujours la plus haute difficulté.</span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\"><span style=\"font-size:18px;\">Traquez les mercenaires sur la page de l’événement et attaquez les un par un..</span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\"><span style=\"font-size:18px;\">Vous pouvez lancer un ralliement si vous n’avez pas le niveau pour le vaincre ou utiliser une demande d’aide (quelqu’un de l’alliance lancera alors un rally pour vous).</span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\"><span style=\"font-size:18px;\">Attention : certains mercenaires sont bien plus durs (niveaux 40, 45, 50).</span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\"><span style=\"font-size:18px;\">Une fois le mercenaire traqué, si vous ne parvenez pas à vaincre la cible à temps, vous devrez à nouveau dépenser de l’endurance pour la redécouvrir.</span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\"><span style=\"font-size:18px;\"><u>Pour pouvoir passer à la phase 2 (défi d’alliance),</u></span><span style=\"font-size:18px;\"> il faut qu’un certain nombre de joueurs ait réussi à vaincre le mercenaire de niveau 40 lors du défi personnel, </span><span style=\"font-size:18px;\"><b>il est donc important que tout le monde participe</b></span><span style=\"font-size:18px;\">.</span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"><img src=\"data/tutorial/images/image0_tuto9.png\" alt=\"Illustration\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:22px\"><span style=\"font-size:22px;\"><b>Défi d’alliance </b></span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\"><span style=\"font-size:18px;\">Le dernier jour de l’événement, les R4 vont invoquer les capitaines de Phaéton (des Boss) qu’on devra combattre tous ensemble.</span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\"><span style=\"font-size:18px;\"><i>Remarque : c’est pour pouvoir invoquer ces boss qu’il faut qu’un minimum de joueurs aient atteint le niveau 40 en difficulté cauchemardesque.</i></span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\"><span style=\"font-size:18px;\">Les capitaines apparaîtront autour du cluster : il y a 5 niveaux à passer pour avoir le maximum de récompenses.</span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\"><span style=\"font-size:18px;\">Tous les membres de l’Alliance peuvent participer en envoyant des marches individuelles contre lui et en réduisant sa santé. </span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\"><span style=\"font-size:18px;\"><b>IMPORTANT - Le nombre de marches, de troupes, ou de dégâts n’influent pas sur la récompense. Vous l’obtenez même en ayant envoyé qu’une seule troupe !</b></span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\"><span style=\"font-size:18px;\">La vie de ces boss baisse très vite donc pour que tout le monde ait une chance d’attaquer au moins une fois et d’avoir les récompenses, merci de suivre cette règle :</span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\"><span style=\"font-size:18px;\">Boss de niveaux 1, 2 et 3 : Envoyez </span><span style=\"font-size:18px;color: #ff0000;\">une seule attaque avec une seule troupe</span><span style=\"font-size:18px;\"> sans héros (pour que le maximum de joueurs ait les récompenses) puis au Go des R4 (quand ils voient que tout le monde a pu envoyer) attaque en full marche. </span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\"><span style=\"font-size:18px;\">Boss de niveaux 4 et 5 : attaque en full marche directement (ils ont assez de vie pour que tout le monde ait le temps de participer).</span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"><img src=\"data/tutorial/images/image1_tuto9.png\" alt=\"Illustration\"></p>"
+    }
+  ]
+}
