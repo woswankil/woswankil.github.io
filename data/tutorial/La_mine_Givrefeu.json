@@ -1,0 +1,50 @@
+{
+  "id": "tuto14",
+  "titre": "La mine Givrefeu",
+  "contenu": [
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\"><span style=\"font-size:18px;\"><b>Version Reddit longue du tutoriel : </b></span><span style=\"font-size:12px;color: #1155cc;\"><u>https://www.reddit.com/r/whiteoutsurvival/s/tJhQx0LXFq</u></span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:18px\"><span style=\"font-size:18px;\"><b>Version courte en images :</b></span></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"><img src=\"data/tutorial/images/image0_tuto14.png\" alt=\"Illustration\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"><img src=\"data/tutorial/images/image1_tuto14.png\" alt=\"Illustration\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"><img src=\"data/tutorial/images/image2_tuto14.png\" alt=\"Illustration\"></p>"
+    },
+    {
+      "type": "html",
+      "data": "<p style=\"text-align:left; font-size:11px\"></p>"
+    }
+  ]
+}
